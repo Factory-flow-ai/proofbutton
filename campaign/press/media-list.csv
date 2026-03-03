@@ -1,0 +1,58 @@
+Outlet,Contact Name,Email,Category,Priority,Notes
+The Verge,Tech & Innovation,press@theverge.com,Tech Media,Tier 1,Battery-free innovation angle; gadget review potential
+Engadget,Tech & Innovation,editorial@engadget.com,Tech Media,Tier 1,IoT and smart home focus; established review platform
+TechCrunch,Tech & Innovation,news@techcrunch.com,Tech Media,Tier 1,Hardware and Kickstarter beat; founder narrative
+Wired,Tech & Innovation,editorial@wired.com,Tech Media,Tier 1,Connected products and design focus; premium audience
+CNET,Tech & Innovation,editorial@cnet.com,Tech Media,Tier 1,Smart home and IoT expertise; consumer-focused
+Gizmodo,Tech & Innovation,editorial@gizmodo.com,Tech Media,Tier 2,Gadget reviews and consumer tech; younger demographic
+The Next Web,Tech Media,news@thenextweb.com,Tech Media,Tier 2,Startups and innovation; European reach
+Product Hunt,Tech Community,hello@producthunt.com,Tech Community,Tier 1,Kickstarter-adjacent community; early adopters
+Hacker News,Tech Community,hn@ycombinator.com,Tech Community,Tier 2,DIY and maker culture; technical audience
+Smart Home Solver,Smart Home YouTube,contact@smarthomesolver.com,YouTube - Smart Home,Tier 1,250K+ subscribers; Home Assistant focus; review potential
+Shane Whatley,Smart Home YouTube,hello@shanewhatley.com,YouTube - Smart Home,Tier 1,"200K+ subscribers; IoT buttons and smart home expert"
+The Hook Up,Smart Home YouTube,contact@thehookup.ca,YouTube - Smart Home,Tier 1,"150K+ subscribers; technical deep-dives; Home Assistant"
+Automate Your Life,Smart Home YouTube,info@automateyourlife.net,YouTube - Smart Home,Tier 2,"100K+ subscribers; home automation focus"
+Home Assistant,Smart Home Community,hello@home-assistant.io,Home Assistant,Tier 1,"Official Home Assistant blog; integration feature opportunity"
+Everything Smart Home,Smart Home YouTube,contact@everythingsmarthome.com,YouTube - Smart Home,Tier 2,"80K+ subscribers; consumer-focused smart home reviews"
+Smart Home Mastery,Smart Home YouTube,info@smarthomemastery.com,YouTube - Smart Home,Tier 2,"Integration tutorial opportunity; DIY audience"
+Home Automation Junkie,Smart Home YouTube,hey@homeautomationjunkie.com,YouTube - Smart Home,Tier 2,"50K+ subscribers; accessible smart home content"
+Nabu Casa Blog,Smart Home Community,blog@nabucase.com,Home Assistant,Tier 2,"Home Assistant commercial partner; integration feature"
+Scary Mommy,Parenting Media,editorial@scarymommy.com,Parenting Media,Tier 1,"4M+ monthly readers; parenting focus; accountability angle"
+Fatherly,Parenting Media,editorial@fatherly.com,Parenting Media,Tier 1,"Dad-focused parenting; founder story appeal"
+Parents Magazine,Parenting Media,editorial@parents.com,Parenting Media,Tier 1,"Traditional parenting magazine; health/safety focus"
+Mom.com,Parenting Media,editorial@mom.com,Parenting Media,Tier 2,"Millennial parent focus; wellness and gadgets"
+Motherly,Parenting Media,editorial@motherly.com,Parenting Media,Tier 2,"Health-conscious parenting; founder interview potential"
+FamilyTech,Parenting Media,editorial@familytechmagazine.com,Parenting Media,Tier 2,"Family technology integration focus"
+The Sprout,Parenting Media,editorial@thesproutsite.com,Parenting Media,Tier 2,"Parenting advice and product recommendations"
+Babble,Parenting Media,editorial@babble.com,Parenting Media,Tier 1,"Parenting and family life; product feature potential"
+GearUp Family,Parenting Media,editorial@gearupfamily.com,Parenting Media,Tier 2,"Family gadgets and tech reviews"
+Kickstarter,Kickstarter Community,press@kickstarter.com,Kickstarter Platform,Tier 1,"Staff picks eligibility; campaign feature opportunity"
+BackerKit,Kickstarter Community,editorial@backerkit.com,Kickstarter Community,Tier 1,"Kickstarter creator platform; featured campaign potential"
+Kickstarter Blog,Kickstarter Community,blog@kickstarter.com,Kickstarter Platform,Tier 1,"Creator stories and featured projects"
+Kicktraq,Kickstarter Analytics,hello@kicktraq.com,Kickstarter Community,Tier 2,"Tracking and coverage of notable campaigns"
+CoolFunkyStuff,Kickstarter Community,contact@coolfunkystuff.com,Kickstarter Community,Tier 2,"Kickstarter campaign coverage and reviews"
+Smart Home Kickstarter,Kickstarter Niche,info@smarthomekickstarter.com,Kickstarter Community,Tier 2,"Dedicated smart home project coverage"
+The Ambient,Tech Media,editorial@theambienttech.com,Smart Home Media,Tier 2,"Smart home and ambient intelligence focus"
+Nerd Techy,Tech Media,editorial@nerdtechy.com,Tech Media,Tier 2,"Consumer tech and gadget reviews; millennial focus"
+GeekAlerts,Tech Media,editorial@geekalerts.com,Tech Media,Tier 2,"Tech product coverage and reviews"
+Tom's Guide,Tech Media,editorial@tomsguide.com,Tech Media,Tier 1,"Consumer tech and smart home expertise"
+9to5Mac,Tech Media,editorial@9to5mac.com,Tech Media,Tier 2,"Apple ecosystem and smart home integration"
+GSMArena,Tech Media,editorial@gsmarena.com,Tech Media,Tier 3,"Tech gadgets; international reach"
+r/Kickstarter,Reddit Community,info@reddit.com,Community Forum,Tier 2,"Active crowdfunding community; campaign discussion"
+r/homeassistant,Reddit Community,info@reddit.com,Home Assistant Community,Tier 2,"2M+ members; Home Assistant users; integration interest"
+r/smarthome,Reddit Community,info@reddit.com,Smart Home Community,Tier 2,"800K+ members; smart home product discussions"
+r/IoT,Reddit Community,info@reddit.com,Tech Community,Tier 2,"IoT innovation and maker culture"
+r/gadgets,Reddit Community,info@reddit.com,Tech Community,Tier 2,"Consumer gadget reviews and discussions"
+Home Assistant Subreddit Moderators,Home Assistant Community,mod@homeassistant.subreddit,Home Assistant Community,Tier 2,"Featured post and pinned announcement opportunity"
+Smart Home Subreddit Moderators,Smart Home Community,mod@smarthome.subreddit,Smart Home Community,Tier 2,"Cross-promotion with active smart home DIYers"
+Lifehacker,Tech Media,editorial@lifehacker.com,Tech Media,Tier 2,"DIY tech and life hacks; accessibility focus"
+Medium Hardware Blog,Tech Community,publications@medium.com,Tech Community,Tier 2,"Independent hardware reviewers and tech writers"
+Forbes Technology,Tech Media,editorial@forbes.com,Tech Media,Tier 3,"Business angle and founder profile potential"
+Wall Street Journal Tech,Tech Media,wsj@wsj.com,Tech Media,Tier 3,"Founder profile and business story angle"
+WIRED Smart Home,Tech Media,smarthome@wired.com,Smart Home Media,Tier 1,"Dedicated smart home section; design focus"
+Dezeen,Design Media,editorial@dezeen.com,Design Media,Tier 2,"Product design and innovation coverage"
+Inhabit,Design & Living,editorial@inhabit.com,Design Media,Tier 2,"Home design and smart living products"
+Electronic Products Journal,B2B Tech,editorial@epj.com,B2B Tech,Tier 3,"Hardware and manufacturing focus"
+Fast Company,Business & Design,editorial@fastcompany.com,Business Media,Tier 3,"Startup and design innovation angle"
+INC Magazine,Business Media,editorial@inc.com,Business Media,Tier 3,"Founder profile and small business angle"
+Entrepreneur Magazine,Business Media,editorial@entrepreneur.com,Business Media,Tier 3,"Founder story and hardware startup angle"

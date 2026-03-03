@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+# Redirect www to apex domain
+https://www.proofbutton.com/* https://proofbutton.com/:splat 301
+
+# Catch-all for SPA (if needed later)
+/*  /index.html  200

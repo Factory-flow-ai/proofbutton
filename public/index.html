@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProofButton - The Accountability Button | Kickstarter Campaign</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ProofButton: The self-powered button that holds your family accountable. No batteries. No wiring. No excuses. Launching on Kickstarter.">
+    <meta name="keywords" content="smart button, family accountability, Alexa, Google Home, Kickstarter, smart home">
+    <meta name="author" content="Ad Hoc Electronics">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="ProofButton - No Batteries. No Excuses.">
+    <meta property="og:description" content="The self-powered button that holds your family accountable, calls for help, and automates your home.">
+    <meta property="og:image" content="https://proofbutton.com/og-image.png">
+    <meta property="og:url" content="https://proofbutton.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ProofButton - No Batteries. No Excuses.">
+    <meta name="twitter:description" content="The self-powered button that holds your family accountable, calls for help, and automates your home.">
+    <meta name="twitter:image" content="https://proofbutton.com/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23FF6B35'/><text x='50' y='60' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>✓</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Custom animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(255, 107, 53, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 107, 53, 0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .animate-slideInLeft {
+            animation: slideInLeft 0.6s ease-out;
+        }
+
+        .animate-slideInRight {
+            animation: slideInRight 0.6s ease-out;
+        }
+
+        .animate-pulse-ring {
+            animation: pulse-ring 2s infinite;
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Intersection Observer trigger class */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Button gradient */
+        .btn-primary {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #E55A24 0%, #FF7A31 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        /* Input focus effect */
+        .input-focus:focus {
+            outline: none;
+            border-color: #FF6B35;
+            box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+        }
+
+        /* ProofButton Product Visual */
+        .button-3d {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .button-disc {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%);
+            border-radius: 50%;
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.15),
+                inset -2px -2px 8px rgba(0, 0, 0, 0.1),
+                inset 2px 2px 8px rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            font-weight: bold;
+            color: #FF6B35;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button-disc::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 30%;
+            height: 30%;
+            background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.9), transparent);
+            border-radius: 50%;
+        }
+
+        .button-ring {
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            border: 2px solid #FF6B35;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.3;
+            animation: pulse-ring 2s infinite;
+        }
+
+        /* Accordion styles */
+        .accordion-item {
+            border-bottom: 1px solid #E5E7EB;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.2s ease;
+        }
+
+        .accordion-header:hover {
+            background-color: #F9FAFB;
+        }
+
+        .accordion-header.active {
+            background-color: #FFF5F0;
+        }
+
+        .accordion-toggle {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: #FF6B35;
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .accordion-header.active .accordion-toggle {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 0 1.25rem 1.25rem;
+            background-color: #FAFAFA;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .accordion-content.active {
+            display: block;
+        }
+
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Card hover effect */
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.15);
+        }
+
+        /* Stat number animation */
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">ProofButton</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="text-gray-700 hover:text-orange-600 transition">Features</a>
+                <a href="#usecases" class="text-gray-700 hover:text-orange-600 transition">Use Cases</a>
+                <a href="#howitworks" class="text-gray-700 hover:text-orange-600 transition">How It Works</a>
+                <a href="#faq" class="text-gray-700 hover:text-orange-600 transition">FAQ</a>
+            </div>
+            <button class="md:hidden text-gray-700">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-white to-orange-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <!-- Left Content -->
+                <div class="scroll-reveal">
+                    <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                        <span class="text-gray-900">No Batteries.<br>No Excuses.</span>
+                    </h1>
+
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        The self-powered button that holds your family accountable, calls for help, and automates your home — no batteries, no wiring, ever.
+                    </p>
+
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8 rounded">
+                        <p class="text-blue-800 text-sm">
+                            <strong>⚡ Launching on Kickstarter</strong> — Be the first to know when we go live
+                        </p>
+                    </div>
+
+                    <!-- Email Form -->
+                    <form class="space-y-4 mb-8" action="#" method="POST">
+                        <div class="grid sm:grid-cols-2 gap-3">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your name"
+                                class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 w-full"
+                                required
+                            >
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="your@email.com"
+                                class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 w-full"
+                                required
+                            >
+                        </div>
+                        <button type="submit" class="btn-primary text-white font-bold py-3 px-8 rounded-lg w-full sm:w-auto text-lg">
+                            Reserve My Early Bird Spot
+                        </button>
+                    </form>
+
+                    <p class="text-gray-500 text-sm">
+                        ✓ We'll email you the moment we launch. No spam, ever.
+                    </p>
+                </div>
+
+                <!-- Right: Product Visual -->
+                <div class="flex justify-center items-center scroll-reveal" style="animation-delay: 0.2s">
+                    <div class="button-3d">
+                        <div class="button-ring"></div>
+                        <div class="button-disc">✓</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">
+                Every parent asks the same questions
+            </h2>
+            <p class="text-center text-gray-600 mb-16 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                every single day...
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Problem Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover scroll-reveal" style="animation-delay: 0.2s">
+                    <div class="text-4xl mb-4">💊</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Did they take their medicine?</h3>
+                    <p class="text-gray-600">No proof. No accountability. Just hope.</p>
+                </div>
+
+                <!-- Problem Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover scroll-reveal" style="animation-delay: 0.3s">
+                    <div class="text-4xl mb-4">🧹</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Did they do their chores?</h3>
+                    <p class="text-gray-600">No proof. No consequences. Just nagging.</p>
+                </div>
+
+                <!-- Problem Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover scroll-reveal" style="animation-delay: 0.4s">
+                    <div class="text-4xl mb-4">🚽</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Did they flush?</h3>
+                    <p class="text-gray-600">No reminder. So much yelling.</p>
+                </div>
+
+                <!-- Problem Card 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover scroll-reveal" style="animation-delay: 0.5s">
+                    <div class="text-4xl mb-4">🍽️</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Is dinner ready?</h3>
+                    <p class="text-gray-600">No ETA. Endless yelling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">
+                Meet ProofButton
+            </h2>
+            <p class="text-center text-gray-600 mb-16 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                The accountability button that powers itself
+            </p>
+
+            <!-- 3-Step Process -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center scroll-reveal" style="animation-delay: 0.2s">
+                    <div class="inline-block w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">1️⃣</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Label It</h3>
+                    <p class="text-gray-600">Customize the button face with whatever matters to you. Medicine. Chores. Goodnight. Help.</p>
+                </div>
+
+                <div class="text-center scroll-reveal" style="animation-delay: 0.3s">
+                    <div class="inline-block w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">2️⃣</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Stick It</h3>
+                    <p class="text-gray-600">Mount it anywhere with included adhesive strips. No drilling. No wiring. Just stick and connect.</p>
+                </div>
+
+                <div class="text-center scroll-reveal" style="animation-delay: 0.4s">
+                    <div class="inline-block w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-3xl">3️⃣</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Press It</h3>
+                    <p class="text-gray-600">Your press IS the power source. One press sends a notification, triggers Alexa, or logs an action.</p>
+                </div>
+            </div>
+
+            <!-- Key Features -->
+            <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-12 rounded-2xl scroll-reveal" style="animation-delay: 0.5s">
+                <h3 class="text-3xl font-bold mb-8 text-center text-gray-900">Why ProofButton is different</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">⚡</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Self-Powered</h4>
+                            <p class="text-gray-700 text-sm">Your press IS the energy source</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">✍️</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Custom Face</h4>
+                            <p class="text-gray-700 text-sm">Print anything you want on it</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">📡</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">150+ ft Range</h4>
+                            <p class="text-gray-700 text-sm">Works through walls and obstacles</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">🔄</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">100K+ Presses</h4>
+                            <p class="text-gray-700 text-sm">Lasts for years of daily use</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">🏠</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Smart Home Ready</h4>
+                            <p class="text-gray-700 text-sm">Works with Alexa, Google, Home Assistant</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">🚫</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Zero Batteries</h4>
+                            <p class="text-gray-700 text-sm">Ever. No charging. No replacing.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">📱</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Mobile App</h4>
+                            <p class="text-gray-700 text-sm">View history & configure automations</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-2xl">🔒</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Private & Secure</h4>
+                            <p class="text-gray-700 text-sm">Local hub, no cloud required</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Grid -->
+    <section id="usecases" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">
+                Endless Use Cases
+            </h2>
+            <p class="text-center text-gray-600 mb-16 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                One button. Infinite possibilities.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Use Case 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.1s">
+                    <div class="text-5xl mb-4">💊</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Medicine</h4>
+                    <p class="text-sm text-gray-600">Track daily medications with proof</p>
+                </div>
+
+                <!-- Use Case 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.15s">
+                    <div class="text-5xl mb-4">🐔</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Chickens</h4>
+                    <p class="text-sm text-gray-600">Confirm they've been fed & watered</p>
+                </div>
+
+                <!-- Use Case 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.2s">
+                    <div class="text-5xl mb-4">🚽</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Toilet Paper</h4>
+                    <p class="text-sm text-gray-600">Auto-order when you press</p>
+                </div>
+
+                <!-- Use Case 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.25s">
+                    <div class="text-5xl mb-4">🍽️</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Dinner</h4>
+                    <p class="text-sm text-gray-600">Send alerts when it's ready</p>
+                </div>
+
+                <!-- Use Case 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.3s">
+                    <div class="text-5xl mb-4">⏰</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Wake Up</h4>
+                    <p class="text-sm text-gray-600">Log kids awake each morning</p>
+                </div>
+
+                <!-- Use Case 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.35s">
+                    <div class="text-5xl mb-4">🌙</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Goodnight</h4>
+                    <p class="text-sm text-gray-600">Turn off lights & lock doors at once</p>
+                </div>
+
+                <!-- Use Case 7 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.4s">
+                    <div class="text-5xl mb-4">🆘</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Help</h4>
+                    <p class="text-sm text-gray-600">Emergency signal to family</p>
+                </div>
+
+                <!-- Use Case 8 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover scroll-reveal text-center" style="animation-delay: 0.45s">
+                    <div class="text-5xl mb-4">🚪</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Doorbell</h4>
+                    <p class="text-sm text-gray-600">Wireless doorbell replacement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="howitworks" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 scroll-reveal">
+                How It Works
+            </h2>
+
+            <div class="bg-gradient-to-r from-orange-50 via-white to-orange-50 p-12 rounded-2xl scroll-reveal" style="animation-delay: 0.2s">
+                <div class="text-center mb-12">
+                    <p class="text-gray-700 text-lg mb-4">
+                        <strong>Your press IS the power source</strong>
+                    </p>
+                    <p class="text-gray-600">
+                        When you press the button, kinetic energy is harvested and converted to electrical power that sends a secure wireless signal.
+                    </p>
+                </div>
+
+                <!-- Flow Diagram -->
+                <div class="grid md:grid-cols-5 gap-4 items-center">
+                    <!-- Step 1 -->
+                    <div class="text-center">
+                        <div class="inline-block w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                            1
+                        </div>
+                        <p class="font-semibold text-gray-900">Press</p>
+                        <p class="text-sm text-gray-600">You press the button</p>
+                    </div>
+
+                    <div class="hidden md:flex justify-center">
+                        <svg class="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="text-center">
+                        <div class="inline-block w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                            2
+                        </div>
+                        <p class="font-semibold text-gray-900">Power</p>
+                        <p class="text-sm text-gray-600">Energy harvested</p>
+                    </div>
+
+                    <div class="hidden md:flex justify-center">
+                        <svg class="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="text-center">
+                        <div class="inline-block w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                            3
+                        </div>
+                        <p class="font-semibold text-gray-900">Signal</p>
+                        <p class="text-sm text-gray-600">BLE to Hub</p>
+                    </div>
+
+                    <div class="hidden md:flex justify-center">
+                        <svg class="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="text-center">
+                        <div class="inline-block w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                            4
+                        </div>
+                        <p class="font-semibold text-gray-900">Action</p>
+                        <p class="text-sm text-gray-600">Text/Email/Alexa</p>
+                    </div>
+                </div>
+
+                <div class="mt-12 p-6 bg-blue-50 rounded-lg border border-blue-200">
+                    <p class="text-blue-900 text-sm">
+                        <strong>🔒 Privacy First:</strong> Your data stays in your home with the local hub. No cloud required. No tracking. No ads. Just accountability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credibility Section -->
+    <section id="credibility" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">
+                Proven Technology
+            </h2>
+            <p class="text-center text-gray-600 mb-16 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                20+ years of manufacturing expertise. Our tooling is done. Our factory is running.
+            </p>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md text-center scroll-reveal card-hover" style="animation-delay: 0.1s">
+                    <div class="stat-number mb-3">20+</div>
+                    <p class="font-semibold text-gray-900 mb-2">Years of Experience</p>
+                    <p class="text-gray-600 text-sm">Manufacturing IoT devices at scale</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md text-center scroll-reveal card-hover" style="animation-delay: 0.2s">
+                    <div class="stat-number mb-3">100K+</div>
+                    <p class="font-semibold text-gray-900 mb-2">Press Lifecycle</p>
+                    <p class="text-gray-600 text-sm">Tested and verified durability</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md text-center scroll-reveal card-hover" style="animation-delay: 0.3s">
+                    <div class="stat-number mb-3">150+</div>
+                    <p class="font-semibold text-gray-900 mb-2">Foot Range</p>
+                    <p class="text-gray-600 text-sm">BLE signal through walls</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md text-center scroll-reveal card-hover" style="animation-delay: 0.4s">
+                    <div class="stat-number mb-3">0</div>
+                    <p class="font-semibold text-gray-900 mb-2">Batteries Ever</p>
+                    <p class="text-gray-600 text-sm">Kinetic harvesting technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white to-orange-50">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 scroll-reveal">
+                Kickstarter Pricing
+            </h2>
+            <p class="text-gray-600 mb-12 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                Be one of the first to get ProofButton at our special launch price
+            </p>
+
+            <div class="bg-white p-12 rounded-2xl shadow-xl scroll-reveal" style="animation-delay: 0.2s">
+                <div class="mb-8">
+                    <p class="text-gray-600 text-sm uppercase tracking-wider mb-4">SUPER EARLY BIRD</p>
+                    <div class="mb-4">
+                        <span class="text-6xl font-bold gradient-text">$29</span>
+                        <span class="text-gray-500 line-through ml-4">$69</span>
+                    </div>
+                    <p class="text-gray-600 text-sm">Regular Retail Price</p>
+                </div>
+
+                <div class="border-t border-b border-gray-200 py-8 mb-8">
+                    <p class="text-gray-700 font-semibold mb-4">What's Included</p>
+                    <ul class="space-y-3 text-left">
+                        <li class="flex items-center text-gray-700">
+                            <span class="text-orange-500 font-bold mr-3">✓</span>
+                            1 × ProofButton (custom printable face)
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <span class="text-orange-500 font-bold mr-3">✓</span>
+                            1 × Wireless Hub (WiFi to Alexa/Google/HA)
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <span class="text-orange-500 font-bold mr-3">✓</span>
+                            Mobile app for iOS & Android
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <span class="text-orange-500 font-bold mr-3">✓</span>
+                            Lifetime support & updates
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <span class="text-orange-500 font-bold mr-3">✓</span>
+                            No batteries. Ever.
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="text-red-600 font-semibold mb-8">
+                    🔴 Only 100 super early bird spots available at launch
+                </p>
+
+                <form action="#" method="POST" class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-3">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your name"
+                            class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500"
+                            required
+                        >
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500"
+                            required
+                        >
+                    </div>
+                    <button type="submit" class="btn-primary text-white font-bold py-3 px-8 rounded-lg w-full text-lg">
+                        Join the Waitlist
+                    </button>
+                </form>
+
+                <p class="text-gray-500 text-sm mt-4">
+                    ✓ We'll notify you when Kickstarter campaign goes live
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+        <div class="max-w-4xl mx-auto text-center scroll-reveal">
+            <h2 class="text-4xl font-bold mb-6">
+                Don't Miss the Launch
+            </h2>
+            <p class="text-xl mb-8 text-orange-100">
+                Join thousands of families ready to bring accountability home
+            </p>
+
+            <form action="#" method="POST" class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    class="px-6 py-4 rounded-lg text-gray-900 placeholder-gray-500 flex-1 sm:max-w-xs input-focus"
+                    required
+                >
+                <button type="submit" class="bg-white text-orange-600 font-bold py-4 px-8 rounded-lg hover:bg-orange-50 transition">
+                    Notify Me
+                </button>
+            </form>
+
+            <p class="text-orange-100 text-sm">
+                ✓ Join <span class="font-bold">2,847</span> families already on the list
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">
+                Frequently Asked Questions
+            </h2>
+            <p class="text-center text-gray-600 mb-16 scroll-reveal" style="animation-delay: 0.1s">
+                Everything you need to know about ProofButton
+            </p>
+
+            <div class="space-y-2" id="accordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.1s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">How does it work without batteries?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>ProofButton uses kinetic energy harvesting technology. When you press the button, the mechanical energy is converted directly into electrical power that sends a secure wireless signal. No batteries, no charging, no excuses — ever. The button will work for 100,000+ presses over its lifetime.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.15s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">What happens if I lose the button?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>The ProofButton hub can support multiple buttons. You can purchase additional buttons separately at retail price. Each button pairs to the hub with a unique ID, so you can replace or add buttons as needed.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.2s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">Does it work with my smart home system?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>ProofButton works with Amazon Alexa, Google Home, and Home Assistant via our wireless hub. The hub connects to your WiFi and can trigger smart home routines, send notifications, or log actions to your mobile app. No cloud required — everything stays private on your local network.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.25s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">What's the range of the wireless signal?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>ProofButton uses Bluetooth Low Energy (BLE) with a range of 150+ feet in open space. The signal works through walls and obstacles, making it reliable throughout a typical home. The hub can relay signals to your WiFi network for remote notifications.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.3s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">Can I customize what the button does?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes! Through the mobile app, you can configure each button to send SMS notifications, trigger Alexa routines, control smart home devices, log to a spreadsheet, or send webhooks to any service. The button face itself is custom printable — print your own design or use our templates.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.35s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">When will ProofButton ship?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We're launching on Kickstarter [Launch Date]. If you back the campaign, early bird backers can expect delivery in [Estimated Delivery]. We have manufacturing partners in place and our tooling is complete, so we're ready to produce at scale.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.4s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">Is my data private and secure?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolutely. ProofButton data stays on your local hub — no cloud storage, no tracking, no ads. All communication is encrypted. Your family's press history and automations are private and under your control. We never sell or share data.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="accordion-item scroll-reveal" style="animation-delay: 0.45s">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="text-lg font-semibold text-gray-900">What if I have technical problems?</span>
+                        <span class="accordion-toggle">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We offer lifetime support via email, phone, and a community forum. Our mobile app includes troubleshooting guides, and we maintain regular firmware updates to fix bugs and add features. If a button is defective, we'll replace it free of charge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-2xl font-bold gradient-text mb-4">ProofButton</h3>
+                    <p class="text-gray-400 text-sm">
+                        The accountability button. Self-powered. Custom printable. Connects to any smart home system.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="font-semibold mb-4 text-white">Product</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#features" class="hover:text-white transition">Features</a></li>
+                        <li><a href="#usecases" class="hover:text-white transition">Use Cases</a></li>
+                        <li><a href="#howitworks" class="hover:text-white transition">How It Works</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="font-semibold mb-4 text-white">Company</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition">Press</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div>
+                    <h4 class="font-semibold mb-4 text-white">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition">Instagram</a>
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition">YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2025 Ad Hoc Electronics. All rights reserved. ProofButton™
+                    </p>
+                    <div class="flex space-x-6 text-gray-400 text-sm">
+                        <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                        <a href="#" class="hover:text-white transition">Terms of Service</a>
+                        <a href="#" class="hover:text-white transition">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal JavaScript -->
+    <script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Accordion functionality
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const toggle = header.querySelector('.accordion-toggle');
+
+            // Close all other accordions
+            document.querySelectorAll('.accordion-header').forEach(h => {
+                if (h !== header) {
+                    h.classList.remove('active');
+                    h.nextElementSibling.classList.remove('active');
+                }
+            });
+
+            // Toggle current accordion
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handlers
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = this.querySelector('input[name="email"]').value;
+                // Replace with actual form service (Mailchimp, ConvertKit, etc.)
+                window.location.href = '/thank-you.html';
+            });
+        });
+
+        // Increment waitlist counter (simulated)
+        window.addEventListener('load', function() {
+            const counter = document.querySelector('span:contains("2,847")');
+            if (counter) {
+                // In production, fetch actual count from backend
+                counter.textContent = Math.floor(2800 + Math.random() * 200);
+            }
+        });
+    </script>
+</body>
+</html>
