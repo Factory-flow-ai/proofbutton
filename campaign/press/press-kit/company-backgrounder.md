@@ -21,26 +21,26 @@ Ad Hoc Electronics began as a hardware design consultancy, helping enterprise cl
 
 This operational expertise—built through thousands of enterprise IoT deployments—became the foundation for ProofButton's development and launch.
 
-### The ILLUMRA Brand Evolution
+### Enterprise Hardware Heritage
 
-Ad Hoc Electronics' commercial hardware line operates under the **ILLUMRA** brand, focusing on enterprise smart home automation, wireless security systems, and connected building products. ILLUMRA products serve commercial integrators, property management companies, and large-scale automation deployments.
+Ad Hoc Electronics' commercial hardware line focuses on enterprise smart home automation, wireless security systems, and connected building products — serving commercial integrators, property management companies, and large-scale automation deployments.
 
-**ILLUMRA Product Categories:**
+**Core Product Categories:**
 - Smart building control systems
 - Wireless security and access solutions
 - Industrial IoT sensors and connectivity
 - Commercial automation integration hardware
 - Enterprise-grade reliability and support
 
-The ILLUMRA product line demonstrates Ad Hoc Electronics' manufacturing expertise, quality standards, and ability to scale complex IoT hardware. Every ILLUMRA product reflects the same engineering rigor, durability testing, and supply chain management that informs ProofButton.
+This product line demonstrates Ad Hoc Electronics' manufacturing expertise, quality standards, and ability to scale complex IoT hardware. Every product reflects the same engineering rigor, durability testing, and supply chain management that informs ProofButton.
 
 ### ProofButton: Bringing Enterprise Quality to Consumer Use Cases
 
-**ProofButton** represents Ad Hoc Electronics' first direct consumer product launch. Rather than distributing through B2B integrators or commercial channels, ProofButton brings 20 years of hardware expertise directly to families, hospitality professionals, and smart home enthusiasts.
+**ProofButton** represents Ad Hoc Electronics' first direct consumer product launch. Rather than distributing through B2B integrators or commercial channels, ProofButton brings 20 years of hardware expertise directly to families.
 
-The product originated not from market research, but from founder Jared Eggett's personal need: **a reliable way to confirm his son Linkin's medication compliance without nagging or friction.**
+The product originated not from market research, but from founder Jared Eggett's personal need: **a simple way to confirm his son Linkin's medication compliance. Not via app. Not via smart home notification. Just a text message.**
 
-What began as a father's solution evolved into recognition of a broader market opportunity: every family, hospitality business, and smart home user faces accountability challenges that traditional smart buttons fail to solve (due to battery dependency).
+What began as a father's solution—press button, get a text—evolved into recognition of a broader market opportunity: every family faces accountability challenges (medicine, chores, tasks) where a simple SMS notification is more effective than app notifications or smart home integrations that require WiFi and setup.
 
 ProofButton's Kickstarter launch allows Ad Hoc Electronics to validate consumer demand, build a community of early adopters, and establish the manufacturing pipeline directly from backer pre-orders.
 
@@ -58,16 +58,18 @@ ProofButton's Kickstarter launch allows Ad Hoc Electronics to validate consumer 
 **Why Jared Built ProofButton:**
 Jared's son Linkin faced challenges with medication compliance—a universal struggle for families managing children's health conditions. Traditional solutions fell short:
 - Phone reminders felt like nagging
-- Apps required constant configuration and updates
+- Apps required constant configuration and updates (and WiFi)
 - Smart buttons died when their batteries failed
-- Medical alert systems were expensive and stigmatizing
+- Medical alert systems were expensive
 
-Rather than buying an existing product, Jared applied his hardware expertise to build a solution: a button that works reliably forever, requires zero maintenance, and integrates seamlessly with the family's smart home.
+Rather than buying an existing product, Jared applied his hardware expertise to build a solution: a button that generates its own power (kinetic), requires zero maintenance, and sends a simple text message—something that works on any phone, anywhere, no app needed.
 
 **The Family Story:**
-Living in Payson, Utah with his family, Jared's household became the first testing ground for ProofButton prototypes. The medicine button worked. Then came the chicken coop gate reminder. The dinner call-out button. The goodnight confirmations for each child. The toilet paper inventory tracking.
+Living in Payson, Utah with his family, Jared's household became the first testing ground for ProofButton prototypes. Linkin presses the button when he takes his medicine. A text arrives instantly. No guessing. No arguing.
 
-Every use case emerged organically from family life—not theoretical market research. This authenticity drives ProofButton's core design philosophy: solve real problems, not imagined ones.
+Then came other use cases—all via SMS. The chicken coop reminder button (sends a text when chores are done). The dinner call-out button (text notification). The goodnight confirmations (text proof). The toilet paper inventory tracking (text alert).
+
+Every use case emerged organically from family life—not theoretical market research. This authenticity drives ProofButton's core design philosophy: solve real problems with simple solutions. Press button. Get text. That's it.
 
 **Leadership Philosophy:**
 "Hardware manufacturing isn't mysterious or risky if you approach it with respect for the craft," Jared says. "We've built thousands of devices. We've learned what works, what fails, and how to design reliability into every product from the beginning. ProofButton benefits from twenty years of that learning."
@@ -82,7 +84,7 @@ Ad Hoc Electronics operates with direct manufacturing relationships that elimina
 - **Global Supply Chain:** Established relationships with connector, battery, wireless, and materials suppliers
 
 **Production Capabilities:**
-- Prototype to production scaling (proven with ILLUMRA product line)
+- Prototype to production scaling (proven with enterprise product lines)
 - Quality assurance protocols developed through enterprise deployments
 - Inventory management and logistics for global distribution
 - Supply chain resilience and redundancy
@@ -112,21 +114,25 @@ Kinetic energy-harvesting eliminates this failure mode entirely. A ProofButton p
 - Design and implementation protected by intellectual property
 - Technical barriers to competitive entry
 
-### Smart Home Integration & Open Ecosystem
+### SMS-First Approach + Future Smart Home Integration (Stretch Goals)
 
-ProofButton's design philosophy emphasizes **open integration** with existing smart home platforms rather than proprietary lock-in.
+ProofButton's core function is **SMS text messaging**. That's the primary feature. It works out of the box via simple SMS.
 
-**Supported Integrations:**
-- **Amazon Alexa:** Seamless integration with Alexa routines and announcements
-- **Google Home/Assistant:** Google Home automation triggers and notifications
-- **Home Assistant:** Open-source smart home platform with custom integrations
-- **Zigbee & Z-Wave:** Industry-standard wireless protocols via companion hub
-- **Mobile Apps:** iOS and Android apps for push notifications and automation setup
+**Core SMS Feature:**
+- **Button press → Text message** to any phone number(s)
+- **QR code setup** (2 minutes, no app required)
+- **Web portal** to manage phone numbers and custom text messages
+- **Works anywhere:** WiFi not required. Phone numbers, not app notifications.
 
-**Why Open Integration Matters:**
-Users don't want to be locked into a single ecosystem. They may use Alexa in one home, Google Home in another. Home automation enthusiasts use Home Assistant. By supporting all major platforms, ProofButton works with each user's existing investment in smart home infrastructure.
+**Future Smart Home Integrations (Stretch Goals):**
+- **Matter integration** (planned, unlock at $X funding)
+- **Home Assistant native support** (planned, unlock at $X funding)
+- **Apple HomeKit via Matter** (planned, unlock at $X funding)
 
-This openness also encourages ecosystem partnerships and third-party integrations—expanding ProofButton's value without requiring Ad Hoc Electronics to build everything internally.
+**Why SMS-First Matters:**
+SMS works on ANY phone. No app download. No smart home setup required. Grandparents get texts. Kids get texts. Single phones, shared phones, old phones—it all works. This is accountability for everyone.
+
+Smart home integration is a bonus for tech enthusiasts, but SMS is the core feature that solves the problem.
 
 ### Product Specifications
 
@@ -157,15 +163,15 @@ This openness also encourages ecosystem partnerships and third-party integration
 
 While ProofButton originated from family accountability, its applications span multiple market segments:
 
-**Family Accountability:** Medication compliance, household task confirmation, bedtime routines, elder care monitoring
+**Family Accountability:** Medication compliance (text proof), household task confirmation (text notification), bedtime routines (text confirmation), elder care monitoring (help button → text alert)
 
-**Hospitality & Vacation Rentals:** Guest service request buttons (towels, temperature, check-in), improving review scores and response times
+**Hospitality & Vacation Rentals:** Guest service request buttons (press for towels, press for temperature adjustment). Text goes directly to staff. Simple, fast, no app.
 
-**Smart Home Enthusiasts:** Home automation integration, open-source Home Assistant workflows, custom automation triggers
+**Small Business & Restaurants:** Staff communication (table ready, supply request, help needed). Buttons send SMS to kitchen or manager. Works offline.
 
-**Small Business & Restaurants:** Staff communication system (table service, supply requests, assistance calls), service efficiency improvement
+**Elder Care & Caregiver Support:** Help button in parent's room. Press it. Adult child gets a text. Works from anywhere. Doesn't require smartphone.
 
-**Elder Care & Caregiver Support:** Medication confirmation, check-in buttons, family notification system
+**Fitness & Wellness:** Workout complete button. Press it. Text arrives. Simple accountability loop that increases consistency.
 
 ### Go-to-Market Strategy: Kickstarter Launch
 
@@ -177,11 +183,12 @@ Ad Hoc Electronics chose Kickstarter for ProofButton's consumer debut because it
 3. **Community Building:** Establish a community of early adopters invested in ProofButton's success
 4. **Transparency:** Demonstrate manufacturing credibility through open communication and progress updates
 5. **Risk Mitigation:** Avoid inventory risk by manufacturing based on confirmed pre-orders
+6. **SMS Messaging Clear:** Kickstarter lets us educate the market on a radically simple product: press button, get text
 
 **Campaign Strategy:**
 - 45-day campaign window
 - Tiered pricing with early-bird incentives
-- Stretch goals for feature expansion and ecosystem partnerships
+- Stretch goals for smart home integration (Matter, Home Assistant, HomeKit) — SMS is core, smart home is bonus
 - Regular backer updates and transparency throughout manufacturing
 - Post-campaign roadmap for product development and partnership opportunities
 
@@ -239,41 +246,42 @@ LinkedIn: [LINKEDIN PROFILE]
 
 1. **20+ years of hardware expertise:** Ad Hoc Electronics isn't a first-time startup—it's a proven hardware manufacturer with enterprise customers and established supply chain relationships.
 
-2. **Real family problem:** ProofButton was born from founder Jared Eggett's authentic need to confirm his son Linkin's medication compliance. This isn't theoretical—it solves real problems.
+2. **Real family problem:** ProofButton was born from founder Jared Eggett's authentic need to confirm his son Linkin's medication compliance via a simple text message. This isn't theoretical—it solves real problems.
 
-3. **Battery-free innovation:** Kinetic energy-harvesting technology eliminates the dead-battery problem that makes traditional smart buttons unreliable.
+3. **Battery-free + SMS-first innovation:** Kinetic power + text messaging. Two innovations solving the accountability problem from multiple angles.
 
-4. **Open ecosystem:** Works with Alexa, Google Home, Home Assistant—not locked into a proprietary platform.
+4. **Works with any phone:** Not locked into smart home ecosystems. SMS reaches any phone number. Grandparents, kids, caregivers—everyone has a phone.
 
 5. **Manufacturing credibility:** Direct factory relationships, proven production workflows, and supply chain expertise reduce typical hardware startup risks.
 
-6. **Multiple market opportunities:** Family accountability, hospitality, elder care, smart home enthusiasts, small business—all addressable with ProofButton.
+6. **Multiple market opportunities:** Family accountability, hospitality, elder care, small business, fitness—all addressable with simple SMS messaging.
 
 7. **Transparency-first approach:** Kickstarter campaign backed by open communication, backer updates, and demonstrated manufacturing credibility.
 
-8. **Founder personally invested:** Jared Eggett is the CEO, not a distant investor. His reputation and credibility are on the line.
+8. **Founder personally invested:** Jared Eggett is the CEO, not a distant investor. His family uses ProofButton daily. His reputation is on the line.
 
 ---
 
 ## Competitive Differentiation
 
 **vs. Traditional Smart Buttons:**
-- ProofButton eliminates battery dependency entirely (kinetic harvesting vs. battery power)
-- No app configuration required—press and it works
-- 100,000+ press durability vs. 1,000-2,000 typical button presses
-- Open ecosystem integration vs. proprietary platforms
+- ProofButton eliminates battery dependency (kinetic power)
+- SMS messaging, not app notifications—works on any phone
+- No smart home setup required (SMS works immediately, smart home is stretch goal)
+- 100,000+ press durability vs. typical buttons
+- Open ecosystem support (but SMS is primary, not secondary)
 
 **vs. Medical Alert Systems:**
-- Non-stigmatizing product design (looks like a button, not medical device)
-- Affordable ($49-199) vs. $25-50/month subscription
-- No ongoing service fees
-- Works with existing smart home (added value vs. isolated system)
+- Non-stigmatizing design (looks like regular button, not medical device)
+- Affordable ($49-59) vs. $25-50/month subscription
+- No ongoing service fees or monthly charges
+- Works via SMS (everyone understands texts)
 
 **vs. Other Kickstarter Buttons:**
-- Manufacturing credibility (20+ year track record vs. first-time startup)
-- Battery-free innovation (patented vs. commodity battery design)
-- Open-source integration roadmap (Home Assistant, Zigbee, Z-Wave)
-- Founder credibility and personal investment
+- Manufacturing credibility (20+ year track record)
+- Battery-free + SMS-first (double innovation)
+- SMS primary, smart home integration as stretch goals
+- Founder uses it daily with his own family
 
 ---
 

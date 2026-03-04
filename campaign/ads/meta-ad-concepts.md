@@ -1,63 +1,66 @@
 # ProofButton Meta Ad Concepts
 ## Kickstarter Campaign — 5 Core Creative Executions
+## SMS-First Messaging
 
 ---
 
-## Concept 1: "Did You Take Your Medicine?"
+## Concept 1: "Press It. Get a Text."
 
 **Target Audience:** Parents with kids 6-17, Families with elderly parents
 
-**Visual Direction:** Split-screen design. Left side: Close-up of hand pressing the ProofButton disc on a nightstand. Right side: Phone notification showing "Linkin took his medicine! 7:22 AM" with a green checkmark and smiley icon. Warm lighting, home environment. ProofButton shown in custom color (recommend blue or teal).
+**Visual Direction:** Split-screen design. Left side: Close-up of hand pressing the ProofButton disc. Right side: Phone lock screen showing incoming SMS text: "Medicine taken ✓ 7:22 AM". Warm lighting, home environment. The SMS text is the hero—simple, clear, real proof.
 
 ### Meta Ad Format Specs:
 
 **Primary Text (125 chars max):**
-"One press = medicine confirmed. No more guessing if your kids took their meds. Press, confirm, remind—all wireless, forever battery-free."
+"Did you take your medicine? Press the button, get a text. No app needed. Works with ANY phone. Battery-free forever. Accountability that's simple."
 
 **Headline (40 chars max):**
-"Medicine Confirmation Made Easy"
+"Medicine Confirmed. Text Message Proof."
 
 **Description (30 chars max):**
-"No batteries. Ever. Pure kinetic."
+"Press it. Get a text. Done."
 
 **CTA Button:** "Learn More" or "Back on Kickstarter"
 
 ### Feed Ad Long Form (200 words):
 
-**Headline:** Did You Take Your Medicine? One Button Knows.
+**Headline:** Press It. Get a Text. That's It.
 
 **Body Copy:**
-For parents, the daily medicine checklist is exhausting. Did Linkin take his inhaler? Did Emma remember her allergy medication? You worry. You nag. You doubt.
+For parents, the daily medicine checklist is exhausting. Did your son take his insulin? Did your daughter take her allergy meds? You worry. You nag. You doubt.
 
 ProofButton solves this with one simple press.
 
-Your child presses the ProofButton at medication time. No apps to open. No reminders to configure. Just press, and you know. A notification hits your phone, your Alexa device speaks a confirmation, or your smart home log records the moment.
+Your child presses the button at medication time. Instantly, you get an SMS text message: "Medicine taken ✓ 8:45 AM". No app to open. No smart home required. Just a real text message on any phone.
 
-It's accountability that works for busy families.
+It works with any phone—smartphones, flip phones, your work phone, grandma's phone. If it gets texts, it works.
 
-What makes ProofButton different? No batteries, ever. Our kinetic energy-harvesting technology means this button works for 100,000+ presses without charging or replacing anything. It's reliable, durable, and it just works—like it should.
+What makes ProofButton different? No batteries, ever. Our kinetic energy-harvesting button powers itself for 100,000+ presses. It's reliable, durable, and lasts forever.
 
-Works seamlessly with Alexa, Google Home, and Home Assistant through our hub. Custom face labels mean your ProofButton becomes part of your family routine.
+Battery-free. Text message simple. Works everywhere.
 
-This is parenting accountability reinvented.
+Custom face labels mean your button is personalized to your family's needs. "Medicine," "Homework," "Dinner"—anything.
+
+This is parenting accountability reinvented for the real world.
 
 **Specifications:**
-- 3" wireless disc button
+- 3" wireless disc button, battery-free
+- Sends SMS texts to any phone
 - 100,000+ press lifecycle
-- 150+ ft range
-- Battery-free kinetic charging
-- Compatible with Alexa, Google Home, Home Assistant
+- No app required (works with SMS)
+- Works with any phone that gets texts
 - Customizable face labels
 
-**CTA:** Back the ProofButton on Kickstarter. Change how your family stays accountable.
+**CTA:** Back the ProofButton on Kickstarter. Get real text message proof.
 
 ---
 
-## Concept 2: "The Toilet Paper Problem"
+## Concept 2: "Press It. Get Help."
 
 **Target Audience:** Families with kids 6-17, Airbnb/VRBO hosts, Restaurant/hospitality owners
 
-**Visual Direction:** Humorous, relatable scene. Person sitting down, pressing a red/orange ProofButton labeled "TP!" on the bathroom wall. Quick cut to Alexa speaker announcing "Toilet paper needed!" on nightstand. Final frame: rolls appearing (partner/family member delivering). Upbeat, light-hearted tone. Clean, modern bathroom setting.
+**Visual Direction:** Humorous, relatable scene. Person in bathroom, pressing a ProofButton labeled "TP!" on the wall. Quick cut to text message appearing on family member's phone: "Toilet paper needed! 2:15 PM". Final frame: family member immediately getting supplies and heading to bathroom. Upbeat, light-hearted tone. Clean, modern bathroom setting.
 
 ### Meta Ad Format Specs:
 
@@ -81,32 +84,32 @@ Let's be honest: nobody wants to yell "Hey! We're out of toilet paper!" across t
 
 ProofButton changes that.
 
-Stick a custom-labeled "TP!" button in your bathroom. When it's time, press it once. Your Alexa device announces it. Your partner gets a push notification. Your Google Home reminds you at night. It's civilized, it's funny, and it works.
+Stick a custom-labeled "TP!" button in your bathroom. Press it once. Your family gets a text message: "Toilet paper needed! 2:15 PM". Someone reads it, grabs supplies, problem solved. It's civilized, it's funny, and it works.
 
 The same button principle applies to paper towels, diapers, soap, or any household need you want to track without the shouting.
 
-For Airbnb hosts, it's a game-changer: guests press the "Extra Towels" or "Cleaning Request" button, and notifications go straight to you. No missed requests. No frustrated messages.
+For Airbnb hosts, it's a game-changer: guests press "Extra Towels" or "Cleaning Request," you get an instant text. No missed requests. No frustrated messages.
 
-For restaurants and hospitality teams, it's the instant service call button that requires zero training. Press, confirm, deliver.
+For restaurants and hospitality teams, it's the instant service call button. Press, get a text alert, deliver.
 
 **Why ProofButton?**
-- No batteries. Ever. Reliability matters in shared spaces.
-- Wireless communication with 150+ ft range
-- Works with your existing smart home
-- Durable kinetic technology: 100,000+ presses per button
+- No batteries. Ever. Reliability in shared spaces.
+- Battery-free for 100,000+ presses
+- Wireless: 150+ ft range
 - Custom labels—make it yours
+- SMS texts work on ANY phone
 
-Stop yelling about household needs. Start pressing.
+Stop yelling. Start texting.
 
 **CTA:** Back ProofButton on Kickstarter. Transform how your family (or business) communicates.
 
 ---
 
-## Concept 3: "No Batteries. No Excuses."
+## Concept 3: "Press It. Get a Text. Every Phone Works."
 
 **Target Audience:** Tech early adopters, Smart home enthusiasts, Home automation DIYers
 
-**Visual Direction:** Quick montage (5-7 second video or carousel). Frame 1: ProofButton pressed (satisfying kinetic click). Frame 2: Hand holding button under lamp showing translucent design and internal mechanism. Frame 3: Button integrated into smart home setup (Alexa, Hub, phone). Frame 4: User pressing button multiple times, rapid-fire. Frame 5: Close-up of "100,000+ presses" durability stat. Sleek, technical aesthetic. White/neutral background. Tech-forward music.
+**Visual Direction:** Quick montage (5-7 second video or carousel). Frame 1: ProofButton pressed (satisfying kinetic click). Frame 2: SMS text message arriving on phone lock screen. Frame 3: Different phones shown receiving texts (smartphone, flip phone, old phone—ALL get texts). Frame 4: Timestamp logging on web portal. Frame 5: Battery-free durability (100,000+ presses). Sleek, technical aesthetic. White/neutral background. Tech-forward music.
 
 ### Meta Ad Format Specs:
 
@@ -149,7 +152,7 @@ For smart home DIYers and tech enthusiasts, this is the button that completes yo
 The kinetic technology is what separates ProofButton from every other wireless smart button on the market. It's the difference between a button you maintain and a button that maintains itself.
 
 **Made Real:**
-Built by Ad Hoc Electronics, a 20-year veteran in connected hardware manufacturing. ProofButton represents the next evolution of their ILLUMRA smart product line.
+Built by Ad Hoc Electronics, a 20-year veteran in connected hardware manufacturing. ProofButton brings their proven enterprise IoT expertise to families and households.
 
 **CTA:** Back the ProofButton on Kickstarter. Experience the button that never needs batteries.
 
