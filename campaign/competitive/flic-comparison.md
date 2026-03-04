@@ -11,7 +11,7 @@ Both ProofButton and Flic are wireless smart buttons, but they solve different p
 - **Flic Button:** Best for casual users who want a simple, cheap, wireless shortcut
 - **ProofButton:** Best for people who care about accountability, privacy, customization, and never replacing batteries
 
-**The fundamental difference:** Flic is a shopping cart button that evolved. ProofButton is accountability engineered from the ground up.
+**The fundamental difference:** Flic sends app notifications. ProofButton sends text messages. Flic requires batteries every year. ProofButton never needs batteries. This is what separates them.
 
 ---
 
@@ -19,15 +19,17 @@ Both ProofButton and Flic are wireless smart buttons, but they solve different p
 
 ### Flic Button Identity
 - "The wireless button that lets you control your smart home"
-- Focus: Convenience, smartness, IoT integration
-- Primary use case: Wireless shortcuts (scene control, lighting, music)
+- Focus: App notifications, smart home integrations
+- Primary notification: Push notification to your phone (requires WiFi + app)
+- Battery: Requires replacement every 1-2 years
 - Brand personality: Casual, tech-forward, playful
 
 ### ProofButton Identity
-- "The accountability button that powers itself"
-- Focus: Behavior change, motivation, reliability
-- Primary use case: Task completion, goal tracking, habits
-- Brand personality: Serious, trustworthy, personalized
+- "The button that texts you"
+- Focus: SMS accountability, works without WiFi or apps
+- Primary notification: Text message to any phone (works offline)
+- Battery: Never needs replacement (kinetic power, infinite)
+- Brand personality: Simple, reliable, for anyone
 
 ---
 
@@ -39,24 +41,23 @@ Both ProofButton and Flic are wireless smart buttons, but they solve different p
 - CR2032 coin cell battery
 - 1-2 year lifespan (typical usage)
 - Annual replacement cost: ~$5
-- Replacement process: Easy (non-technical)
-- Environmental impact: ~50 button batteries/year in market
-- Reliability concern: Battery dies and button goes silent (no warning)
+- Sends app notifications (requires WiFi + app download)
+- Reliability concern: Battery dies and button stops working
 
 **ProofButton:**
 - Kinetic energy harvesting (press = power)
 - Infinite lifespan (never replace)
 - Annual replacement cost: $0
-- Replacement process: N/A
-- Environmental impact: Zero battery waste
-- Reliability concern: Kinetic mechanism could theoretically fail (rare, 5-year warranty covers)
+- Sends SMS text messages (works on any phone, works offline)
+- Reliability: No batteries = no unexpected failures
 
 **ProofButton Advantage:**
-- This is the biggest competitive moat. Flic users will eventually need to replace batteries. ProofButton users never will.
-- Psychological benefit: "I'll never have to buy a battery again" is liberating
-- Environmental angle: Strong positioning for eco-conscious consumers
+- Two-fold win: No batteries (Flic weakness) + SMS (Flic doesn't have)
+- SMS reaches anyone. Flic notifications only reach app users
+- SMS works when WiFi is down. Flic notifications don't
+- You text grandma. You don't download Flic app for her.
 
-**Quote positioning:** "Flic made a wireless button. ProofButton made a button you never have to think about again."
+**Quote positioning:** "Flic made a wireless button. ProofButton made a button that sends you a text."
 
 ---
 
@@ -267,42 +268,36 @@ Smartphone dependency:
 
 **Flic Button:**
 
-Wireless protocol: Bluetooth LE (Low Energy)
+Wireless protocol: Bluetooth LE (Low Energy) — operates on crowded 2.4 GHz band
 Range: 100 feet (open space), 30-50 feet (through walls)
 Connection quality:
 - Direct to smartphone via Bluetooth
 - Occasional connection drops if too far
 - Cloud fallback for internet actions
-- Susceptible to WiFi interference
+- Susceptible to WiFi interference (2.4 GHz congestion)
 
 Reliability: 90-95% (occasional range/connection issues)
 
 **ProofButton:**
 
-Wireless protocol options:
-- Zigbee (via hub) - range 100+ feet through walls
-- WiFi (direct, planned) - unlimited range (anywhere you have WiFi)
-- Fallback: cloud integration available
-
-Range:
-- Zigbee: 50-100+ feet through multiple walls
-- WiFi: Entire house + remote access
-- Reliability: 99%+ (Zigbee more stable than Bluetooth)
-
+Wireless protocol: **902 MHz (EnOcean)** — operates on uncrowded, dedicated frequency
+Range: 150+ feet indoors through walls and obstacles
 Connection quality:
-- Mesh network (if using multiple Zigbee devices)
-- Self-healing network (reroutes if path blocked)
-- Local automation (instant response)
+- Dedicated 902 MHz band (no interference from WiFi, Bluetooth, phones)
+- Direct hub connection (no cloud dependency required)
+- Superior wall penetration vs Bluetooth
+- Proven in commercial building automation for 20+ years
 
-Reliability: 99%+ (industrial-grade Zigbee)
+Reliability: 99%+ (industrial-grade 902 MHz, less congestion than Bluetooth)
 
 **ProofButton Advantage:**
-- Zigbee is more reliable than Bluetooth (this is significant)
-- ProofButton can work anywhere in/outside your home (WiFi version)
-- Mesh networking = better coverage in large homes
-- Local automation = instant response (important for habit reinforcement)
+- **902 MHz is fundamentally more reliable than Bluetooth** — uncrowded band vs crowded 2.4 GHz
+- Every phone, headphone, smartwatch, speaker, WiFi router, and your neighbor's device compete on 2.4 GHz. 902 MHz is clean.
+- Better penetration through walls (lower frequency = longer range)
+- Proven in commercial buildings for 20+ years (millions of devices deployed)
+- When your kid presses the medicine button at 7:30 AM, that signal MUST get through. 902 MHz ensures it does.
 
-**Quote positioning:** "Bluetooth is fine for shortcuts. ProofButton uses industrial-grade Zigbee + upcoming WiFi for reliability."
+**Quote positioning:** "Flic uses Bluetooth — the same crowded 2.4 GHz band as your phone, headphones, and WiFi. ProofButton uses 902 MHz — a dedicated, uncrowded frequency designed for reliability."
 
 ---
 

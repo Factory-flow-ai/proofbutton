@@ -1,16 +1,17 @@
 # ProofButton Reward Tiers Documentation
 
-Detailed reward tier structure with pricing rationale, COGS analysis, and tier descriptions for Kickstarter campaign.
+Detailed reward tier structure with SMS service included in every tier.
 
 ---
 
 ## Reward Tier Structure Overview
 
-ProofButton will offer 7 primary reward tiers plus add-ons, designed to capture different customer segments while maintaining healthy margins.
+ProofButton offers 7 primary reward tiers plus add-ons. Every tier includes the hub with SMS service—no monthly fees, no hidden charges.
 
-**Important Note:** All prices below are recommended placeholders based on typical hardware manufacturing + Kickstarter fees. Final pricing should be validated against:
+**Important Note:** All prices below include unlimited SMS text messaging service. Final pricing validated against:
 - Actual COGS from Ebelong factory
 - Real fulfillment costs (shipping, customs, handling)
+- SMS service infrastructure costs (included)
 - Kickstarter platform fees (8%)
 - Desired profit margin (20-30%)
 
@@ -24,22 +25,24 @@ ProofButton will offer 7 primary reward tiers plus add-ons, designed to capture 
 **Fulfillment:** Same timeline as all tiers (10-12 months)
 
 ### What's Included:
-- 1x ProofButton unit
+- 1x ProofButton unit (battery-free wireless button)
+- 1x ProofButton Hub with SMS service (unlimited texts, no monthly fees)
 - Custom face design (your choice)
 - Magnetic mounting hardware
-- USB setup guide (QR code + printed)
-- "Kinetic Pioneer" backer pack (digital: downloadable ebook on accountability habits)
+- QR code setup guide (2-minute setup to add phone numbers)
+- "Text Message Pioneer" backer pack (digital: downloadable guide to accountability)
 
 ### Pricing Rationale:
-- **COGS Estimate:** $18-22 (manufacturing + custom face)
-- **Shipping:** $4-6 (USA average, plus international buffer)
-- **Subtotal:** ~$24-28
+- **COGS:** Button $18-22 + Hub $15-18 = $33-40
+- **SMS Service (12-month included):** $10-15 (infrastructure cost)
+- **Shipping:** $4-6 (USA average)
+- **Subtotal:** ~$51-61
 - **Fulfillment & Packaging:** $2-3
 - **Kickstarter Fee (8%):** $3.12
-- **Profit Margin:** ~$10-12 per unit (25% margin)
+- **Profit Margin:** ~$8-10 per unit (20% margin)
 
-**Target Audience:** Kickstarter faithful, early adopters, brand believers
-**Positioning:** "Help us reach our goal. Get the best price."
+**Target Audience:** Kickstarter faithful, early adopters, people who want best price
+**Positioning:** "Help us launch. Get SMS included. Get the best deal."
 **Urgency:** "Only 100 available. First come, first served."
 
 ---
@@ -52,24 +55,26 @@ ProofButton will offer 7 primary reward tiers plus add-ons, designed to capture 
 **Fulfillment:** 10-12 months
 
 ### What's Included:
-- 1x ProofButton unit
+- 1x ProofButton unit (battery-free wireless button)
+- 1x ProofButton Hub with SMS service (unlimited texts, no monthly fees)
 - Custom face design (unlimited design options)
 - Magnetic mounting hardware (includes 3 adhesive strips)
-- Quick start guide (printed)
-- Home Assistant quick integration card (if using HA)
+- Quick start guide (printed) — includes QR code for setup
+- SMS setup instructions (simple: add phone numbers)
 - Digital welcome guide (PDF)
 
 ### Pricing Rationale:
-- **COGS Estimate:** $18-22
+- **COGS:** Button $18-22 + Hub $15-18 = $33-40
+- **SMS Service (12-month included):** $10-15
 - **Shipping:** $4-6
-- **Subtotal:** ~$24-28
+- **Subtotal:** ~$51-61
 - **Fulfillment & Packaging:** $2-3
 - **Kickstarter Fee (8%):** $3.92
-- **Profit Margin:** ~$15-18 per unit (30% margin)
+- **Profit Margin:** ~$12-18 per unit (22% margin)
 
-**Target Audience:** Primary market, serious accountability seekers, smart home users
-**Positioning:** "The full ProofButton experience. No compromises."
-**Why This Price:** Balance of accessibility and margin; customers see value at this price point
+**Target Audience:** Primary market, families, people who want SMS texts without smart home
+**Positioning:** "Press button. Get a text. That's it."
+**Why This Price:** Accessibility + SMS service included; customers see clear value
 
 ---
 

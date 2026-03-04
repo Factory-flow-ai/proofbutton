@@ -6,15 +6,15 @@
 
 ---
 
-## Family-First Innovation: ProofButton Launches Battery-Free Accountability Button on Kickstarter
+## Battery-Free Button That Texts You: ProofButton Launches SMS-First Accountability on Kickstarter
 
-**The wireless smart button powered by kinetic energy finally answers the question: Did they really do it?**
+**A wireless button that sends text messages. No app. No smart home needed. Just accountability that arrives as SMS.**
 
 **Payson, Utah** – Ad Hoc Electronics, a 20+ year leader in connected hardware design and manufacturing, today announced the consumer launch of **ProofButton** – the world's first battery-free, kinetic energy-harvesting wireless accountability button. Backed by a real family's needs and built for real problems, ProofButton arrives on Kickstarter [KICKSTARTER LAUNCH DATE] with early-bird pricing and exclusive backer rewards.
 
-A simple 3-inch disc. No batteries. Ever. One press confirms accountability across your entire smart home ecosystem (Alexa, Google Home, Home Assistant) and notifies family, caregivers, or team members instantly.
+A simple wireless button. Press it. Get a text message on your phone. No batteries. Ever. No app needed. No smart home required.
 
-"ProofButton isn't a gadget we invented in a lab and hoped someone would want," says **Jared Eggett**, CEO and founder of ProofButton. "It's a button we built because my family needed it. Every feature, every design decision, every specification reflects a real problem we solved at home. This is about accountability that actually works—without the nagging, without the friction, without the dead batteries."
+"ProofButton isn't a gadget we invented in a lab and hoped someone would want," says **Jared Eggett**, CEO and founder of ProofButton. "It's a button we built because my family needed it. My son Linkin's medicine routine. The simple text message that proved it was done. That changed everything. This is about accountability that actually works—without the nagging, without the friction, without the dead batteries or the app you have to download. Just a button and a text."
 
 ### The Problem Every Family Knows
 
@@ -38,7 +38,8 @@ ProofButton harnesses the kinetic energy of every press to power wireless commun
 - **150+ foot wireless range** through walls and obstacles
 - **Kinetic energy-harvesting technology** (patent pending)
 - **Zero batteries.** Ever.
-- **Smart home integration:** Alexa, Google Home, Home Assistant, Zigbee, Z-Wave compatible via companion hub
+- **SMS-first:** Works with any phone that receives texts. Setup via QR code + web portal. 2 minutes.
+- **No app required:** Send texts to multiple phone numbers, custom messages for each button
 - **Custom face labels** – make it medicine, toilet paper, dinner, goodnight, or anything your family needs
 - **Reliability-first design** from 20+ years of commercial hardware manufacturing
 
@@ -46,10 +47,10 @@ ProofButton harnesses the kinetic energy of every press to power wireless commun
 
 ProofButton wasn't born from market research—it was born from daily life. Jared Eggett's family used prototypes to solve genuine challenges:
 
-- **Medicine accountability:** Linkin's medication reminder button confirmed by Alexa announcement to the household
-- **Household logistics:** The chicken coop gate reminder, toilet paper inventory button, dinner call-outs
-- **Family routines:** Bedtime goodnight buttons that mark when each child confirmed sleep
-- **Caregiver peace-of-mind:** Elderly parent assistance buttons that notify adult children instantly
+- **Medicine accountability:** Linkin presses the button when he takes his medicine. A text arrives. Proof.
+- **Household logistics:** Chicken coop reminder, toilet paper button, dinner announcement—all send texts
+- **Family routines:** Bedtime confirmations via text. Wake-up texts. Chore completion texts.
+- **Caregiver peace-of-mind:** Elderly parent presses help button, kids get a text instantly. Works without WiFi.
 
 "This isn't a product that solves a theoretical problem," says Eggett. "This is a product that solved our actual life. And we're launching it because we know thousands of other families face the exact same challenges."
 
@@ -112,10 +113,10 @@ As a founder-led hardware company, Eggett is committed to transparency throughou
 
 All ProofButton packages include:
 - 3-inch battery-free wireless disc button
-- Companion smart home hub (Zigbee/Z-Wave)
+- SMS Gateway (QR code setup, web portal management)
 - Custom face label sheet with 12+ pre-designed options
-- Mobile app integration (iOS and Android)
-- Alexa, Google Home, and Home Assistant setup guides
+- SMS text notifications (setup for multiple phone numbers)
+- Complete setup guide (takes 2 minutes)
 - 2-year warranty and customer support
 
 ### About Ad Hoc Electronics
@@ -174,18 +175,18 @@ ProofButton is launching on Kickstarter on [DATE]. For press inquiries, intervie
 
 ## Key Talking Points for Media Follow-Up
 
-1. **Battery-free innovation:** First consumer wireless button using kinetic energy harvesting—solves the "dead battery" problem that plagues smart home buttons.
+1. **SMS-first innovation:** The button you press. The text that arrives. No app. No smart home system required. This is accountability that works for anyone with a phone.
 
-2. **Family-first founder story:** Jared Eggett built ProofButton to solve his son Linkin's real challenge with medication accountability. This is authentic problem-solving, not speculative product design.
+2. **Battery-free + text-based:** Solves TWO problems: dead batteries (kinetic power) and app friction (uses SMS instead). First button that sends texts, not notifications.
 
-3. **20-year manufacturing credibility:** Ad Hoc Electronics isn't a startup—it's a proven hardware company with enterprise customers and direct factory relationships. ProofButton is evolution, not experimentation.
+3. **Family-first founder story:** Jared Eggett built ProofButton to solve his son Linkin's real challenge with medication accountability. A text message that proved it was done. This is authentic problem-solving.
 
-4. **Multiple market opportunities:** While family accountability is the origin story, ProofButton has viable applications in hospitality (Airbnb/VRBO), elder care, home automation, and small business.
+4. **20-year manufacturing credibility:** Ad Hoc Electronics isn't a startup—it's a proven hardware company with enterprise customers. ProofButton is evolution, not experimentation.
 
-5. **Transparency commitment:** Founder personally driving manufacturing transparency, community engagement, and post-campaign product development. Backer-friendly Kickstarter approach, not cash grab.
+5. **Works with any phone:** Not locked into smart home ecosystems. Send texts to any phone number. Works when WiFi is down. Works for grandparents and kids alike.
 
-6. **Durability & reliability:** 100,000+ press lifecycle and zero maintenance is differentiated value vs. battery-powered alternatives that require quarterly or annual battery replacement.
+6. **Durability & reliability:** 100,000+ press lifecycle and zero maintenance. No batteries to replace. One button works for 10+ years.
 
-7. **Smart home integration:** Works seamlessly with Alexa, Google Home, Home Assistant, Zigbee, Z-Wave—not locked into a proprietary ecosystem. Open architecture.
+7. **Setup in 2 minutes:** QR code on the box. Scan with phone. Enter phone numbers in web portal. Done. No app download. No hub required (smart home integration available as stretch goal).
 
-8. **Pre-order validation:** Kickstarter campaign allows founder to validate market demand, secure pre-orders, and fund manufacturing directly from backers—reduces financial risk and aligns incentives.
+8. **Accountability reimagined:** Not a gadget. A behavior change tool. A text arrives because something got done. That proof changes relationships.

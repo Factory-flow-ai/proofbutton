@@ -35,7 +35,7 @@ This pricing is only for people who believed before launch day.
 **What You're Getting**
 
 ✓ One ProofButton (wireless, battery-free, lasts millions of presses)
-✓ One ProofButton Hub (connects to Alexa/Google Home/Home Assistant)
+✓ SMS Gateway (sends texts to any phone. Set up in 2 minutes via QR code)
 ✓ Custom face label set (Medicine, Chores, Help, etc.)
 ✓ Full setup guide and installation hardware
 ✓ Free shipping to the US (EU/international shipping available at checkout)
@@ -131,7 +131,7 @@ That's why we built this. That's why we're launching this. That's why we're aski
 
 **Back ProofButton now.** [KICKSTARTER_LINK]
 
-No batteries. No wires. No excuses.
+No batteries. No app. No excuses. Just texts.
 
 Jared Eggett
 Founder, ProofButton

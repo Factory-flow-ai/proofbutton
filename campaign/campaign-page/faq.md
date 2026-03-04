@@ -1,81 +1,63 @@
 # ProofButton Comprehensive FAQ
 
-20+ frequently asked questions covering all aspects of ProofButton from technology to fulfillment.
+Answers to all your questions about SMS text messaging, setup, and how ProofButton works.
 
 ---
 
-## How It Works Questions
+## Core Feature Questions
 
-### Q: How does ProofButton power itself without batteries?
+### Q: What is ProofButton, exactly?
 
-**A:** ProofButton uses kinetic energy harvesting—a patented mechanism inside the button captures the mechanical energy from you pressing it and converts it into electrical power. Think of it like a wind-up toy, except it powers itself with every press. The energy is then used to send a wireless signal to your smart home. No batteries, ever.
+**A:** ProofButton is a battery-free wireless button that sends SMS text messages. Press the button → it generates its own power → sends a text message to the phone number(s) you chose → timestamped proof forever. No app needed. Works with any phone that gets texts.
 
 ---
 
 ### Q: Do I really never need to replace the battery?
 
-**A:** Correct. Never. The button powers itself kinetically with every press. As long as your finger can press the button, it will work. We've tested the mechanism for 500,000+ presses, which is 100+ years of daily use. The kinetic mechanism has a 5-year warranty.
-
----
-
-### Q: What happens if the kinetic power runs out mid-press?
-
-**A:** It won't. The kinetic mechanism harvests energy continuously as you press. If somehow the wireless transmission doesn't complete (extremely rare), pressing again instantly triggers it. The mechanism doesn't "run out" like a battery—it works based on the physical press, not stored charge.
+**A:** Correct. Never. The button powers itself kinetically with every press. No batteries, no charging, ever. We've tested 100,000+ presses, roughly 27 presses per day for 10 years. The mechanism is proven. Compare to traditional smart buttons that need battery replacement every 1-2 years.
 
 ---
 
 ### Q: How long does each ProofButton last?
 
-**A:** Based on our testing and similar kinetic technology (watch movements, mechanical clickers), we estimate 5+ years of reliable daily use. We warranty the hardware for 5 years against manufacturing defects. The wireless component should last similarly. After 5+ years, the button may wear, but it should still function. Compare to traditional smart buttons that need battery replacement every 1-2 years.
+**A:** 5+ years of reliable daily use. We warranty the hardware for 5 years against manufacturing defects. After 5+ years, the button may wear, but it should still function. The kinetic mechanism and wireless components are solid-state and extremely durable.
 
 ---
 
 ### Q: Is the button weatherproof?
 
-**A:** Yes, ProofButton is IP67 equivalent weatherproof, meaning it can handle:
+**A:** Yes, ProofButton is IP54 weatherproof, meaning it handles:
 - Splashes and light rain
-- Brief submersion (not extended underwater)
-- Dust and dirt (sealed against most particles)
+- Dust and dirt (sealed against particles)
 - Safe for indoor/outdoor use
 
-This makes it suitable for kitchens, bathrooms, garages, or even exterior mounting (with proper housing).
+Suitable for kitchens, bathrooms, garages, or exterior mounting. Avoid extended underwater submersion or high-pressure spray.
 
 ---
 
-## Smart Home Integration Questions
+## SMS & Text Message Questions
 
-### Q: What smart home systems does it work with?
+### Q: How do text messages work with ProofButton?
 
-**A:** Currently shipped with:
-- **Alexa** (native integration)
-- **Google Home** (native, included at $50K stretch goal)
-- **Home Assistant** (native, full featured)
-- **Matter** (planned, stretch goal at $75K)
-- **Apple HomeKit** (via Matter, stretch goal)
-- **IFTTT** (100+ service integrations)
+**A:** When you press the button, it wirelessly signals your hub. Your hub (which needs WiFi) sends an SMS text message to the phone number(s) you set up during setup. The text includes the button label and timestamp. That's it. No app needed on the receiving phone—just a normal text message.
 
-We design for open protocols, not vendor lock-in. If your system isn't listed, ask—we likely support it via IFTTT or have plans to.
+---
+
+### Q: What phone numbers can I send texts to?
+
+**A:** Any phone number that receives SMS text messages. Smartphones, flip phones, work phones, home phones, international numbers—anything. You can add up to 5 phone numbers per button during setup. Multiple people get notified with one press.
 
 ---
 
 ### Q: Do I need the hub?
 
-**A:** Short answer: Recommended but not always required.
+**A:** Yes. The hub is essential because:
+- Translates the button's wireless signal to WiFi
+- Sends SMS text messages through your broadband
+- Stores timestamp logs locally
+- Plugs into any standard outlet via USB-C
 
-**With Hub (Recommended):**
-- Faster response time (local automation)
-- More reliable (Zigbee > Bluetooth)
-- Larger range (100+ feet through walls)
-- Works everywhere in your home
-- Enables advanced automations
-- Required for Home Assistant integration
-
-**Without Hub (WiFi version, future):**
-- Direct WiFi connection
-- Larger range (anywhere you have WiFi)
-- Slightly slower setup
-
-For most users, the hub is worth it. It costs $30-35 and enables everything ProofButton can do.
+Without the hub, the button has nowhere to send texts. The hub is included in every tier. Just plug it in and scan the QR code on the back—2-minute setup to add your phone numbers.
 
 ---
 
@@ -104,20 +86,29 @@ For most homes, Zigbee range covers everything. For large homes or multiple floo
 
 ---
 
-### Q: Can I customize what happens when I press it?
+### Q: How do I set up the phone numbers for texts?
 
-**A:** Absolutely. The button press triggers an event. What happens next is entirely up to you:
+**A:** During initial setup, you scan the QR code on the back of the hub with your phone. It takes you to proofbutton.com/setup. You:
+1. Create an account (optional—texts work without it)
+2. Add up to 5 phone numbers per button
+3. Label the button ("Medicine," "Chickens," etc.)
+4. Save
 
-**Examples:**
-- Turn on lights
-- Start a scene
-- Send a notification
-- Log to a spreadsheet
-- Post to Discord
-- Trigger a full automation sequence
-- Anything your smart home system supports
+That's it. Now when you press the button, texts go to those numbers. You can change the numbers anytime via the web portal.
 
-In Home Assistant, you can create unlimited automations. In Alexa, you can set up routines. IFTTT gives you 100+ options. The button is the trigger—you control the action.
+---
+
+### Q: What does the text message look like?
+
+**A:** Simple and clear. Example:
+
+"Medicine confirmed ✓ 7:32 AM"
+
+or
+
+"Chickens fed ✓ 3:15 PM"
+
+Just the button label, checkmark, and timestamp. No ads, no fluff. Pure accountability.
 
 ---
 
@@ -483,6 +474,30 @@ We're designing for accountability and behavior change, not just automation. The
 **If you remember one thing:** ProofButton is a battery-free wireless button designed for accountability. It works with your smart home, never needs replacing, and enables you to finish what you start.
 
 **Questions not answered here?** Email support@proofbutton.com or ask in community channels. We read everything.
+
+---
+
+### Q: Why 902 MHz instead of Bluetooth?
+
+**A:** Reliability. The 2.4 GHz Bluetooth band is crowded—every phone, headphone, smartwatch, speaker, WiFi router, and your neighbor's devices compete for bandwidth. 902 MHz is relatively empty. Less radio traffic means more reliable signal delivery. When your kid presses the medicine button, that signal must get through. Every time. No exceptions. 902 MHz (EnOcean protocol) penetrates walls better than Bluetooth, delivers 150+ feet range indoors through obstacles, and has been proven in commercial building automation for 20+ years. Millions of devices deployed globally. Lower frequency = longer range, better penetration, less congestion. That's what accountability requires.
+
+---
+
+### Q: Can I set deadlines and escalation alerts?
+
+**A:** Not in version 1.0, but that's our next big stretch goal: **Rules & Escalation**. Here's what it will do:
+
+**Set deadlines:** "MEDICINE must be pressed by 7:30 AM on school days, 9:00 AM on weekends."
+
+**Auto-escalation if NOT pressed:** If Linkin doesn't press the button by 7:30 AM, automatic texts go to Mom AND Dad: "Linkin DID NOT take his medicine."
+
+**Escalation levels:** 1st reminder friendly, 2nd one urgent, 3rd to extended family.
+
+**School calendar integration:** Different rules for school days vs weekends vs holidays.
+
+**Confirmation texts when pressed on time:** "Linkin took his medicine at 7:32 AM ✓"
+
+This is the accountability killer feature. If we hit $125K in funding, every backer gets Rules & Escalation at launch. It transforms ProofButton from a passive logger to an active accountability enforcer.
 
 ---
 

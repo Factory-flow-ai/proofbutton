@@ -139,99 +139,99 @@ This section uses rapid cuts (1-2 seconds each) to show multiple household chaos
 
 **Scene 3A: Medicine Confirmed | Interior, Bedroom (Same as 1A)**
 
-- **Visual**: Same bedroom, same morning light. Linkin sits up, reaches to nightstand. Button visible (glowing face label with "MEDICINE" custom text). **Close-up of finger pressing button.**
+- **Visual**: Same bedroom, same morning light. Linkin sits up, reaches to nightstand. Button visible (labeled "MEDICINE" with custom text). **Close-up of finger pressing button.**
 - **Camera**: Medium shot, then zoom/cut to extreme close-up of button press
 - **Lighting**: Warm morning light, button catches light with satisfying gleam
-- **Action**: **PRESS** — button clicks satisfyingly. Immediate cut to: Mom's phone buzzing, notification appears on screen: "Linkin took his medicine ✓" with timestamp
-- **VoiceOver** (Warm, satisfied narrator or Mom's voice): "Medicine confirmed."
-- **On-Screen Text** (on phone screen): "Linkin took his medicine ✓" | "8:45 AM"
-- **Sound**: Satisfying mechanical click, phone notification sound (subtle, pleasant)
+- **Action**: **PRESS** — button clicks satisfyingly. Immediate cut to: Mom's phone buzzing, SMS text message appears on lock screen: "Medicine taken ✓ 8:45 AM"
+- **VoiceOver** (Warm, satisfied narrator or Mom's voice): "His phone buzzes with proof."
+- **On-Screen Text** (on phone screen): "Medicine taken ✓ 8:45 AM"
+- **Sound**: Satisfying mechanical click, SMS notification sound (subtle, cheerful)
 - **Music**: Uplifting chord; energy shifts positive
 - **Timing**: 20-25 seconds (5-second beat)
 
 **Key Notes**:
-- First solution moment—reward the audience with a satisfying resolution
-- Show the button close-up so audience can see the quality/design
-- Phone notification is proof of concept
+- First solution moment—show the text message arrival (buzzing phone is the hero shot)
+- Phone is displaying a real text message, not an app notification
+- This works on ANY phone—flip phone, smartphone, old phone
 - Music shift signals we're in the solution space now
 
 ---
 
 **Scene 3B: Chickens Fed, Confirmed | Exterior, Chicken Coop**
 
-- **Visual**: Same boy as before, now at chicken coop door. Pulls out ProofButton from pocket (custom "CHICKENS" label). **Close-up of button press.**
+- **Visual**: Same boy as before, now at chicken coop door. ProofButton mounted on fence post (custom "CHICKENS" label). **Close-up of button press.**
 - **Camera**: Medium shot, then zoom to button
 - **Lighting**: Bright afternoon sun; golden hour warmth
-- **Action**: **PRESS** — satisfying click. Immediate cut to: Dad's phone, notification appears: "Chickens fed ✓" with timestamp. Dad nods, knowing it's real.
-- **VoiceOver** (Warm narrator): "Chickens fed."
-- **On-Screen Text** (on phone screen): "Chickens fed ✓" | "3:22 PM"
-- **Sound**: Satisfying click, chicken clucks (now happy, content), phone notification
+- **Action**: **PRESS** — satisfying click. Immediate cut to: Dad's phone buzzing, SMS text appears: "Chickens fed ✓ 3:22 PM". Dad reads text, nods, satisfied.
+- **VoiceOver** (Warm narrator): "Dad gets a text."
+- **On-Screen Text** (on phone screen): "Chickens fed ✓ 3:22 PM"
+- **Sound**: Satisfying click, chicken clucks (now happy, content), SMS notification
 - **Music**: Uplifting, reinforces positive tone
 - **Timing**: 25-30 seconds (5-second beat)
 
 **Key Notes**:
-- Establish that buttons can be anywhere, labeled for anything
-- Show the button clearly enough that viewers understand the design
-- Dad's satisfied nod = credibility signal ("this works for me")
+- Show button can be anywhere outdoors (mounted on fence)
+- Text message is the proof—simple, reliable, works everywhere
+- Dad's satisfied nod = "I believe my kid did the chore because I have proof"
 
 ---
 
 **Scene 3C: Bathroom SOS Solved | Interior, Bathroom**
 
-- **Visual**: Same person in bathroom, now reaching for a ProofButton mounted next to toilet paper holder (or near wall). Button labeled "TOILET PAPER" with appropriate humor/icon. **Close-up of button press.**
+- **Visual**: Same person in bathroom, now reaching for a ProofButton mounted on wall near toilet. Button labeled "TOILET PAPER" with appropriate humor/icon. **Close-up of button press.**
 - **Camera**: Medium shot, then zoom to button detail
 - **Lighting**: Bathroom light, but now warmer tone (color grading shift)
-- **Action**: **PRESS** — satisfying click. Cut to: Whole house—Alexa device lights up, voice announcement: "Toilet paper needed in upstairs bathroom." Family members in other rooms hear it, respond immediately (one gets up, heads toward bathroom).
+- **Action**: **PRESS** — satisfying click. Cut to: Family member in another room gets SMS text: "Toilet paper needed! 2:15 PM". They immediately get up and grab supplies, heading to bathroom.
 - **VoiceOver** (Warm narrator): "Help arrives instantly."
-- **On-Screen Text** (floating over Alexa device or as subtitle): "Toilet paper needed in upstairs bathroom"
-- **Sound**: Button click, Alexa's pleasant chime, Alexa's voice announcement (clear, friendly tone)
+- **On-Screen Text** (on family member's phone): "Toilet paper needed! 2:15 PM"
+- **Sound**: Button click, phone SMS notification (cheerful)
 - **Music**: Triumphant, satisfying resolution
 - **Timing**: 30-35 seconds (5-second beat)
 
 **Key Notes**:
-- This is the "magical" moment—instant communication to the whole home
-- Alexa integration is a major selling point
-- Show the physical response (family member getting up) to prove efficacy
+- Text message is instant communication (no app needed for receiver)
+- Show physical response (family member getting up) to prove efficacy
 - Humor is maintained but outcome is genuinely useful
+- Works even if family is in different rooms—simple text, instant action
 
 ---
 
 **Scene 3D: Dinner Announcement | Interior, Kitchen & Upstairs**
 
-- **Visual**: Mom in kitchen (warm, inviting lighting) with ProofButton labeled "DINNER" on the counter nearby. She **presses the button.** Cut to: Upstairs hallway—speakers/smart home device announces dinner. Kids immediately respond, putting down phones, getting up.
+- **Visual**: Mom in kitchen (warm, inviting lighting) with ProofButton labeled "DINNER" on the counter nearby. She **presses the button.** Cut to: Upstairs—multiple phones buzz with SMS texts. Kids look at phones, immediately get up and head downstairs.
 - **Camera**: Kitchen wide shot, button close-up, then cut to upstairs (handheld, capturing quick responses)
-- **Lighting**: Warm kitchen light; cooler upstairs light, but now seems more connected
-- **Action**: Mom presses button—**satisfying click**. Immediate smart home announcement. Kids respond within a second; doors open, footsteps on stairs.
-- **VoiceOver** (Mom's voice, warm and clear): "Come down for dinner!" (button text triggers this, or she says it and it broadcasts)
-- **On-Screen Text** (floating text or on smart speaker screen): "Come down for dinner!"
-- **Sound**: Button click, smart home chime, pleasant announcement voice, immediate sounds of kids responding (doors opening, footsteps)
+- **Lighting**: Warm kitchen light; cooler upstairs light
+- **Action**: Mom presses button—**satisfying click**. Upstairs, phones buzz with text: "Dinner is ready! 5:45 PM". Kids see text, put down phones/controllers, immediately respond.
+- **VoiceOver** (Mom's voice, warm and clear): "One press. Everyone knows."
+- **On-Screen Text** (on kids' phone screens): "Dinner is ready! 5:45 PM"
+- **Sound**: Button click, SMS notification sounds, kids responding (doors opening, footsteps)
 - **Music**: Triumphant, family-oriented theme
 - **Timing**: 35-40 seconds (5-second beat)
 
 **Key Notes**:
 - Strongest family-bonding moment
-- Show immediate response from kids (proof the product works)
-- Warm, inviting kitchen aesthetic reinforces home comfort
+- Show immediate response from kids (text notification creates action)
+- Text message is the trigger—simple, reliable, works for everyone
 - Music swells here—emotional peak
 
 ---
 
-**Scene 3E: Goodnight Ritual | Interior, Bedroom**
+**Scene 3E: Goodnight Confirmation | Interior, Bedroom**
 
-- **Visual**: Teenager in bed at night, reaching over to nightstand. ProofButton labeled "GOODNIGHT" is mounted on wall near head. **Button press close-up.** Cut to: Bedroom lights dim beautifully (smart bulbs), creating a calming, cozy scene. Teen smiles, satisfied.
-- **Camera**: Wide shot of room, then extreme close-up of button, then return to wide shot as lights dim
-- **Lighting**: Bright overhead, then smooth transition to warm nightlight glow
-- **Action**: **PRESS** — satisfying click. Lights dim smoothly over 1-2 seconds. Teen's face glows softly. Content smile.
-- **VoiceOver** (Warm, gentle narrator or teen's voice): "Goodnight."
-- **On-Screen Text**: None (let the visual speak)
-- **Sound**: Button click, subtle smart light transition sound (gentle hum or chime), ambient night sounds (distant crickets, soft breeze)
-- **Music**: Gentle, calming resolution; music softens as lights dim
+- **Visual**: Teenager in bed at night, reaching to bedside. ProofButton labeled "GOODNIGHT" on nightstand. **Button press close-up.** Parents' phone across the house buzzes with confirmation text.
+- **Camera**: Wide shot of room, then extreme close-up of button, cut to parents' phone
+- **Lighting**: Bright overhead transitioning to dim nightlight
+- **Action**: **PRESS** — satisfying click. Parent's phone buzzes: "Goodnight ✓ 9:45 PM". Teen's face glows content. Parent smiles, satisfied (kid actually did bedtime).
+- **VoiceOver** (Warm, gentle narrator): "Bedtime confirmed."
+- **On-Screen Text** (on parent's phone): "Goodnight ✓ 9:45 PM"
+- **Sound**: Button click, SMS notification, ambient night sounds (gentle)
+- **Music**: Gentle, calming resolution; music softens
 - **Timing**: 40-45 seconds (5-second beat)
 
 **Key Notes**:
-- Emotional payoff: the product enables comfort and ease
-- Lighting transition is visually beautiful and sells the smart home integration
-- Teen's smile = satisfaction and endorsement
+- Emotional payoff: proof that kid actually did bedtime routine
+- SMS is the magic—parent gets confirmation from anywhere
+- Teen's smile + parent's smile = mutual satisfaction
 - Music begins to soften for transition to next section
 
 ---
@@ -267,18 +267,20 @@ This section uses rapid cuts (1-2 seconds each) to show multiple household chaos
 - **VoiceOver** (Confident, clear narrator—different voice than emotional sections):
   - "Your press is the power source."
   - (pause for visual impact)
-  - "Kinetic energy harvesting charges the button instantly."
-  - "Wireless signal to your hub. WiFi to your smart home."
+  - "Kinetic energy harvesting powers the button instantly."
+  - "902 MHz wireless signal to your hub. No interference. No crowding."
+  - "Hub sends text message via WiFi."
+  - "Text message to any phone. No app needed."
   - "No batteries. Ever."
 
 - **On-Screen Text** (animated, appearing with visual elements):
   - "PRESS" (above button)
   - "KINETIC ENERGY" (near capacitor)
-  - "BLE" (near wireless signal)
-  - "HUB" (near router)
-  - "WiFi" (near cloud)
-  - "ACTION" (near smart home devices)
-  - Final screen: "No batteries. No wires. Just your press."
+  - "WIRELESS" (near signal)
+  - "HUB" (near WiFi router)
+  - "SMS" (near cloud)
+  - "TEXT MESSAGE" (on phone screen)
+  - Final screen: "No batteries. Works with any phone. Just your press."
 
 - **Sound**:
   - Button click at start

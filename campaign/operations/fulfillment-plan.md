@@ -28,7 +28,7 @@ This document outlines the complete fulfillment strategy from campaign closure t
    - Street address (line 2)
    - City, State/Province, Postal Code
    - Country
-   - Phone number (optional, for shipping carrier)
+   - Phone number (for SMS setup + shipping carrier)
    - Shipping address type: Residential / Commercial / PO Box
 
 2. **Delivery Preference**
@@ -37,20 +37,26 @@ This document outlines the complete fulfillment strategy from campaign closure t
    - Delivery speed: Standard / Expedited (if offered)
    - Special delivery instructions (e.g., "leave at door")
 
-3. **Custom Face Design Section**
+3. **SMS Setup Section**
+   - Primary phone number (for SMS notifications)
+   - Secondary phone number (optional, for shared button)
+   - Confirm phone numbers work with SMS
+   - Custom SMS message preview (what text they want to receive)
+
+4. **Custom Face Design Section**
    - Upload image or choose from pre-designed templates
    - Text to display on button (max 20 characters)
    - Color preference (if applicable)
    - Design preview
    - Confirmation checkbox: "I approve this design"
 
-4. **Add-On Items** (if applicable)
+5. **Add-On Items** (if applicable)
    - Extra buttons
    - Custom colors
    - Mounting hardware options
-   - Wall plate options
+   - Smart home hub (optional, for future stretch goal integration)
 
-5. **Feedback & Communication**
+6. **Feedback & Communication**
    - Testimonial permission: "Can we use your story/photos?"
    - Social media handle (for public sharing of photos)
    - Email preference: promotional updates / shipment only / none

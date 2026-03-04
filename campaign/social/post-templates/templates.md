@@ -8,25 +8,25 @@
 
 ### Template 1: Launch Announcement
 
-**Image:** Hero product shot with bold "LIVE NOW" overlay
+**Image:** Button with SMS notification showing on phone screen
 
 **Caption:**
 
 🔘 IT'S LIVE.
 
-The button you didn't know you needed is now on Kickstarter.
+ProofButton is here. Press it. Get a text.
 
-ProofButton: No batteries. Wireless. Pure accountability.
+No app. No smart home setup. No batteries. Ever.
 
 Two years of obsession. One simple solution.
 
-Press the button. Mark it done. Feel the weight lifted.
+Press the button. Get a text. Accountability arrives.
 
-This is what real accountability feels like.
+This is what real accountability feels like. In your pocket. As a text.
 
 [LINK IN BIO TO BACK THE CAMPAIGN]
 
-#ProofButton #Kickstarter #Accountability #SmartHome #NoMoreBatteries
+#ProofButton #Kickstarter #TextNotification #Accountability #NoApp
 
 ---
 
@@ -88,31 +88,27 @@ What's your accountability story? Drop it in the comments. 👇
 
 ### Template 4: How It Works Educational
 
-**Image:** Infographic or carousel showing 4-5 step process
+**Image:** Infographic showing button press to text message arrival
 
 **Caption:**
 
 How ProofButton Actually Works:
 
-1️⃣ Set a goal (anything—fitness, work, chores, habits)
+1️⃣ Press the button (no batteries needed—it powers itself)
 
-2️⃣ Press the button when you finish
+2️⃣ Kinetic energy sends wireless signal
 
-3️⃣ ProofButton powers itself via kinetic energy (no batteries, ever)
+3️⃣ Text message arrives on your phone
 
-4️⃣ Signal sent to your smart home (Alexa, Google, Home Assistant)
+4️⃣ You know it happened. Proof.
 
-5️⃣ Your automation triggers (log it, message your buddy, celebrate)
+That's it. No app. No smart home required. Works on any phone.
 
-That's it.
-
-No setup nonsense. No batteries. Just accountability.
-
-Simple enough? That's the whole point.
+Optional: Connect to smart home (Matter, Home Assistant) via stretch goal if you want automation. But SMS is the core. And SMS works everywhere.
 
 [LINK TO KICKSTARTER / FAQ]
 
-#ProofButton #SmartHome #HowItWorks #Accountability #NoMoreBatteries
+#ProofButton #TextMessage #Accountability #NoApp #SimpleLife
 
 ---
 
@@ -331,38 +327,40 @@ And that's worth everything."
 **Tweet 1:**
 "we just went live on kickstarter with something i've been obsessing over for 2 years.
 
-ProofButton: a wireless button that powers itself and actually helps you finish what you started.
+ProofButton: press the button. get a text message. no app. no wifi required. just accountability.
 
-no batteries. no complications. just accountability.
+no batteries. ever. just kinetic power and SMS.
 
 link in bio 🧵"
 
 **Tweet 2:**
 "the problem we solved:
 
-you have a phone with 47 reminder apps. notifications every minute. yet you still don't finish what matters.
+your kid swears they took their medicine. your spouse says they did the chores. you don't know. you just... hope.
 
-why? because it's all digital noise.
+what if proof was as simple as a text arriving on your phone?
 
-humans respond to real, physical, tangible things."
+press button. text arrives. you know."
 
 **Tweet 3:**
 "so we built a button.
 
 press it when you finish. that's it.
 
-it powers itself via kinetic energy. sends a wireless signal to your smart home. triggers whatever automation matters to you.
+it powers itself via kinetic energy. sends a signal. text arrives on any phone.
 
-Alexa, Google Home, Home Assistant, Matter—all supported."
+works offline. works on grandma's old phone. works everywhere.
+
+that's the feature: it just works."
 
 **Tweet 4:**
 "but here's what makes it different:
 
-you FEEL it work. you press it. something actually happens. your brain gets feedback.
+you feel it work. you press it. something actually happens. you get a TEXT. your phone buzzes.
 
-that simple interaction? that's the difference between knowing you should finish and actually finishing.
+that simple interaction? that's the difference between hoping someone did something and KNOWING they did.
 
-psychology + physics = accountability"
+proof changes relationships."
 
 **Tweet 5:**
 "2 years. 50+ iterations. thousands of dollars. obsession that probably looked insane to my friends.

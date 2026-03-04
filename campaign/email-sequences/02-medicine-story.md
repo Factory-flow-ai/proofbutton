@@ -38,9 +38,9 @@ What if instead of asking, I just gave Linkin a button and told him: "When you t
 
 So we built it. A button he could press. A notification I could see. A conversation that could finally be over.
 
-The first morning, I was skeptical. But Linkin pressed it at 7:18 AM. I got a notification with a timestamp. No argument. No doubt. Just proof.
+The first morning, I was skeptical. But Linkin pressed it at 7:18 AM. I got a text message with a timestamp. Literally a text. On my phone. My wife got one too. Both of us knew, instantly, that he'd taken his medicine.
 
-My wife got a notification too. Both of us knew, instantly, that he'd taken his medicine.
+No app needed. No WiFi. Just a text message arriving on any phone that texts.
 
 No more "Did you take your medicine?"
 
@@ -48,7 +48,7 @@ No more arguments before school.
 
 No more guessing.
 
-The button is the proof. And the proof changes everything.
+The button pressed. The text arrived. And that text—that simple proof—it changed everything.
 
 **That's why we built ProofButton.**
 

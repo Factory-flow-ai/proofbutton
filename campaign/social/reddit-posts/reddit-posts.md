@@ -19,20 +19,23 @@ I'm also obsessed with home automation, so naturally, I thought "why isn't there
 So I spent the last 18 months obsessing (my friends would say "spiraling") over building the button I actually wanted:
 
 **The thing I built:**
-- **Wireless, battery-free button** (powers itself via kinetic energy harvesting—basically magic but actually physics)
-- **Works with everything:** Alexa, Google Home, Home Assistant, Matter, IFTTT
+- **Wireless, battery-free button** (powers itself via kinetic energy harvesting)
+- **SMS-first:** Press it. Text arrives on your phone. No app needed.
+- **Works anywhere:** WiFi not required. Works on any phone.
 - **Customizable faces:** Your name, your goal, whatever makes it personal
-- **Dead simple:** Press it when you finish something. That's it.
+- **Dead simple:** Press it. Text arrives. You know it happened.
 
 **Why it matters (to me anyway):**
-Physical interaction. When you press a button and feel it work, something clicks in your brain. It's not a notification you ignore. It's not a checkbox on your phone you forget about. It's real, tangible feedback.
+Physical interaction + proof. When you press a button and feel it work, something clicks. Then your phone buzzes with a text. You've got proof.
 
-I've been using prototypes for 6 months now, and I've actually... finished things. Projects, habits, goals. Because there's this one button that makes me feel accountable in a way nothing else did.
+It's not a notification you ignore. It's a text—everyone understands texts. It's real, tangible feedback from the physical world into your phone.
+
+I've been using prototypes for 6 months with my son Linkin's medicine routine. Press button at 7:30 AM. Text arrives. No more "did you take it?"—I know.
 
 **What I'm doing now:**
-We're launching on Kickstarter [DATE]. I built this because I needed it, and I think some of you might too.
+We're launching on Kickstarter [DATE]. I built this because my family needed it, and I think some of you might too.
 
-If you're into home automation, you'll appreciate the integration options. If you're into psychological hacks for productivity, you'll get why the physical button matters. If you're just tired of failing at your goals, well, me too.
+If you're into smart home automation, you'll appreciate that SMS is the core (smart home integration comes later via stretch goals). If you're into psychological hacks, you'll get why the button+text combo is powerful. If you're just tired of failing at your goals, well, this is for you.
 
 Would love to hear from the r/smarthome crowd—what would you want in an accountability button? Hub-based? Battery-free? Custom faces? Already thinking about Version 2.
 
@@ -50,15 +53,21 @@ Would love to hear from the r/smarthome crowd—what would you want in an accoun
 
 Hey r/homeautomation—I've been lurking here for years, and the community inspired me to finish this project: **ProofButton**, a wireless accountability button that integrates natively with Home Assistant.
 
-**Technical specs you'll care about:**
-- Kinetic energy harvesting (press powers the button, sends wireless signal)
-- Local-first Home Assistant integration (no cloud, no vendor lock-in)
-- Supports Home Assistant automations, scripts, custom templates, etc.
-- Open protocol (not proprietary nonsense)
-- Also works with Alexa, Google Home, Matter for the non-HA folks
+**Core feature:**
+- Press button → SMS text message arrives
+- No app needed. Works on any phone. WiFi not required.
+- Kinetic energy harvesting (press powers the button)
+- Setup via QR code + web portal (2 minutes)
 
-**Why I'm excited about this for HA users:**
-The local integration is huge. No dependency on external APIs. No privacy concerns. Just a button that fires an event to your HA instance. You can trigger whatever automation you want: turn on a light, send a message, log to a database, whatever.
+**For HA nerds (stretch goal integration):**
+- Native Home Assistant integration planned
+- Button press triggers HA automations
+- Local-first (no cloud dependency)
+- Open protocol
+- Also works with Alexa, Google Home, Matter for non-HA folks
+
+**Why SMS-first + HA integration:**
+SMS is the core product (works everywhere). HA integration is a stretch goal for the automation enthusiasts. But if you just want to press a button and get a text notification—no setup, no hub, works immediately—that's the base product.
 
 **Real use case from testing:**
 I set mine up to trigger a "task complete" scene—lights flash, a message sends to my accountability buddy, the task logs to a spreadsheet. It sounds silly but it actually changed my follow-through rate.
@@ -90,10 +99,13 @@ Home Assistant community—I'm asking for your help.
 I built a physical accountability button that integrates natively with Home Assistant, and I want your feedback before we launch publicly.
 
 **What it is:**
-A wireless button that powers itself (kinetic mechanism, no batteries ever). You press it, it sends an event to your Home Assistant instance. You build automations around it.
+A wireless button that powers itself (kinetic mechanism, no batteries ever). Press it, a text arrives on your phone. No app. No setup headache. Works immediately.
 
 **Why it exists:**
-I was frustrated that smart home buttons were either proprietary (locked into ecosystems) or battery-dependent (annoying). I wanted something that worked with HA, was reliable, and didn't require annual battery replacements.
+I was frustrated with smart home buttons that needed batteries, apps, and WiFi. I wanted something my family could just press and get proof it happened. A text message. Simple.
+
+**For HA folks specifically:**
+This also works natively with Home Assistant (stretch goal). Local-first integration. No cloud. But the core feature is SMS—texts to any phone, no app required.
 
 **What HA integration looks like:**
 ```

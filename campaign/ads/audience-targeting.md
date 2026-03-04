@@ -6,21 +6,23 @@
 
 ---
 
-## Segment 1: Parents with Kids 6-17
+## Segment 1: Parents with Kids 6-17 (SMS-First Focus)
 
 **Demographic Profile:**
 - Age: 28-55 years old
-- Household income: $50K-$150K+
+- Household income: $40K-$150K+ (inclusive of non-tech families)
 - Location: US (primary), Canada, UK, Australia
 - Parental status: 1-3+ children in target age range
 - Education: High school to college+
+- Smart home adoption: Any level (doesn't require smart home)
 
 **Meta Targeting Specs:**
-- Core audiences: "Parents," "Families," "Kids age 5-18"
-- Interests: Parenting, Child health, Family wellness, Back-to-school, ADHD/Learning disabilities
-- Behaviors: Recently engaged with parenting content, health tracking apps, educational apps
+- Core audiences: "Parents," "Families," "Kids age 5-18," "Non-tech families"
+- Interests: Parenting, Child health, Family wellness, Back-to-school, ADHD/Learning disabilities, Accountability, Family communication
+- Behaviors: Recently engaged with parenting content, messaging apps, health tracking apps
 - Lookalike audiences: Email signups from parenting blogs (Scary Mommy, FamilyFriendly), pediatrician sites, school district newsletters
 - Exclude: Pages without parenting intent
+- Include: Parents who DON'T use smart home (SMS is the focus, not Alexa)
 
 **Lookalike Suggestions:**
 - Scary Mommy audience
@@ -28,6 +30,7 @@
 - WebMD parenting section visitors
 - Amazon Prime members who bought pediatric/health products
 - School district Facebook followers
+- Non-tech parent communities (parenting without technology focus)
 
 **Estimated Audience Size:** 45-65 million (Meta US)
 
@@ -43,12 +46,15 @@
 - Health/medication compliance
 - Family routine simplification
 - Parent peace-of-mind
-- Trust and reliability
+- SMS text messages (no app needed, works on any phone)
+- Battery-free reliability (no maintenance)
+- Works for families who DON'T have smart home
 
 **Landing Page Recommendations:**
 - Dedicated "Parents" landing with Linkin's story
-- FAQ focused on medication, safety, routine
-- Parent testimonial/review section
+- FAQ focused on SMS texts, medication, safety, routine
+- "Works without smart home" messaging prominent
+- Testimonials from non-tech parents
 - Simple CTA: "Email me when it launches" + Early-bird pricing
 
 **Expected Performance:**

@@ -20,17 +20,17 @@ ProofButton changes that. It's a self-powered wireless button. No batteries. No 
 
 Everything. Here are just a few ways families are already thinking about using it:
 
-**Medicine Accountability** — Your teen takes their daily medication at 7:30 AM. They press the button. You get timestamped confirmation. No more "Did you take it?" The button is the proof.
+**Medicine Accountability** — Your teen takes their daily medication at 7:30 AM. They press the button. You get a text message with a timestamp. No app needed. No asking. Just proof. And peace of mind.
 
-**Chore Verification** — "I did my chores" isn't a statement anymore — it's a button press. Parents get instant notifications. Kids know they can't fudge it.
+**Chore Verification** — "I did my chores" isn't a statement anymore — it's a button press and a text arrives on your phone. Kids know they can't fudge it.
 
-**Toilet Paper Alerts** — Three bathrooms. One button in each. When the roll runs out, you know immediately. No surprises.
+**Toilet Paper Alerts** — Three bathrooms. One button in each. When the roll runs out, you press it. You get a text. Someone restocks it. Problem solved.
 
-**Dinner Announcements** — One press. "Dinner is ready." Everyone in the house gets the message. No shouting. No repeating yourself.
+**Dinner Announcements** — One press. You get a text saying dinner is ready. Everyone in the house who cares gets the message. Works even when WiFi apps don't.
 
-**Goodnight Light Control** — Kids press the button before bed. Lights dim automatically. It becomes a ritual. A habit. A win.
+**Goodnight Confirmations** — Kids press the button before bed. You get a text confirming they went to sleep. It becomes a ritual. A habit. A win.
 
-**Help/Panic Buttons** — Stick one in the garage, the backyard, or your elderly parent's room. Press it when you need help. Adults in the house get notified instantly.
+**Help/Panic Buttons** — Stick one in the garage, the backyard, or your elderly parent's room. Press it. Adults in the house get a text immediately.
 
 ProofButton isn't just a button. It's a conversation closer. A proof generator. A family accountability system that works because it's so simple that even kids can't mess it up.
 

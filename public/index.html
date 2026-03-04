@@ -265,7 +265,7 @@
                     <div>
                         <div class="inline-flex w-14 h-14 bg-orange-500 rounded-full items-center justify-center text-white font-bold text-lg mb-2">3</div>
                         <p class="font-semibold text-gray-900">Hub Sends Text</p>
-                        <p class="text-sm text-gray-600">Via WiFi &amp; SMS gateway</p>
+                        <p class="text-sm text-gray-600">Via Ethernet &amp; SMS gateway</p>
                     </div>
                     <div>
                         <div class="inline-flex w-14 h-14 bg-orange-500 rounded-full items-center justify-center text-white font-bold text-lg mb-2">4</div>
@@ -440,6 +440,92 @@
         </div>
     </section>
 
+    <!-- Commercial Use Cases -->
+    <section id="business" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4 scroll-reveal">ProofButton for Business</h2>
+            <p class="text-center text-gray-600 mb-16 text-lg scroll-reveal" style="animation-delay: 0.1s">
+                Physical proof of presence. No apps. No accounts. No excuses.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.1s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-construction.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x1F3D7;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">Construction Site Check-In</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> You're managing a job site with 8 subs. Half of them bill by the hour. You can't be on-site every morning to verify arrivals, and sign-in sheets get lost, forged, or forgotten.<br><br>
+                        <strong>The fix:</strong> Mount a ProofButton at the site entrance. Workers press it when they arrive. You get a timestamped text: <em>"Worker arrived — 6:47am."</em> Now you have proof for billing disputes, compliance audits, and OSHA documentation. No app to install on anyone's phone. No training. Just press and go.
+                    </div>
+                </div>
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.15s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-security.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x1F6E1;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">Security Guard Patrol</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> Your security company charges for hourly patrols, but how do you know the guard actually walked every checkpoint? GPS can be spoofed. Paper logs get fabricated. Guard tour wand systems cost $500+ and need proprietary tags.<br><br>
+                        <strong>The fix:</strong> Mount ProofButtons at each checkpoint along the patrol route. The guard presses each one as they pass. You get a complete timestamped patrol log: <em>"Checkpoint B3 — 2:14am."</em> Physical proof of presence that can't be faked from the parking lot. Zero maintenance — no batteries to replace across dozens of checkpoints.
+                    </div>
+                </div>
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.2s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-restroom.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x1F9F9;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">Restroom Cleaning Log</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> Every hotel, airport, and restaurant has a paper sign-off sheet on the bathroom wall. Nobody trusts it. Managers can't verify if cleaning actually happened. Customers complain. Health inspectors ask questions.<br><br>
+                        <strong>The fix:</strong> Replace the clipboard with a ProofButton inside each restroom. Janitor cleans, then presses. Management gets a timestamped log: <em>"Restroom B cleaned — 11:32am."</em> Digital compliance records with zero training. Works for any facility — hotels, schools, offices, retail.
+                    </div>
+                </div>
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.25s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-bus.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x1F68C;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">School Bus Sweep</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> Every year, children are left on school buses. Drivers are required to walk the bus after each route to check every seat, but there's no way to prove the sweep happened. Districts face lawsuits and tragedy.<br><br>
+                        <strong>The fix:</strong> Mount a ProofButton at the very back of the bus. After walking every row, the driver presses it at the rear. Dispatch gets a text: <em>"Bus #47 swept clear — 3:52pm."</em> If no text comes in, dispatch calls immediately. Simple proof that saves lives. No app, no tablet, no training.
+                    </div>
+                </div>
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.3s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-loneworker.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x1F332;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">Lone Worker Check-In</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> Your field crew works remote sites — forestry, utilities, oil & gas, cell towers. OSHA requires regular welfare checks for lone workers, but cell service is spotty and guys forget to radio in.<br><br>
+                        <strong>The fix:</strong> ProofButton at the work site. Worker presses every hour as a check-in. Dispatch gets a text: <em>"Site 14 check-in — 2:00pm."</em> If an hour passes with no press, dispatch triggers a welfare check. Simple, reliable, no phone needed. Meets OSHA lone worker compliance requirements.
+                    </div>
+                </div>
+
+                <div class="use-case-card bg-white rounded-xl shadow-md card-hover scroll-reveal border border-gray-100" style="animation-delay: 0.35s" onclick="toggleUseCase(this)">
+                    <div class="use-case-img h-44 rounded-t-xl bg-cover bg-center" style="background-image: url('images/usecase-inspection.png'); background-color: #FFF5F0;"></div>
+                    <div class="p-5">
+                        <div class="text-3xl mb-2">&#x2705;</div>
+                        <h4 class="font-bold text-gray-900 text-lg">Equipment Inspection</h4>
+                    </div>
+                    <div class="use-case-desc text-sm text-gray-600 border-t border-gray-100">
+                        <strong>The problem:</strong> Pre-shift equipment inspections are required but rarely verified. Did someone actually check the forklift? Walk the dock? Inspect the fire extinguishers? Nobody knows until something goes wrong.<br><br>
+                        <strong>The fix:</strong> Mount ProofButtons at each inspection point. Technician inspects, then presses. Supervisors get a complete log: <em>"Forklift A inspected — 5:58am."</em> Missed inspections trigger alerts. Compliance documentation happens automatically. Perfect for warehouses, manufacturing floors, and fleet operations.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Credibility Section -->
     <section id="credibility" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div class="max-w-6xl mx-auto">
@@ -488,9 +574,9 @@
                 <div class="mb-8">
                     <p class="text-gray-600 text-sm uppercase tracking-wider mb-2">SUPER EARLY BIRD</p>
                     <div class="mb-2">
-                        <span class="text-6xl font-bold gradient-text">$29</span>
+                        <span class="text-6xl font-bold gradient-text">$39.99</span>
                     </div>
-                    <p class="text-gray-500 text-sm"><span class="line-through">Regular retail: $69</span></p>
+                    <p class="text-gray-500 text-sm"><span class="line-through">Regular retail: $79.99</span></p>
                 </div>
 
                 <div class="border-t border-b border-gray-200 py-8 mb-8">
@@ -498,7 +584,7 @@
                     <ul class="space-y-3 text-left">
                         <li class="flex items-start text-gray-700">
                             <span class="text-orange-500 font-bold mr-3 mt-0.5">&#x2713;</span>
-                            <span>1 &times; Wireless Hub (WiFi-connected, sends texts)</span>
+                            <span>1 &times; Ethernet Hub (plug into router, sends texts)</span>
                         </li>
                         <li class="flex items-start text-gray-700">
                             <span class="text-orange-500 font-bold mr-3 mt-0.5">&#x2713;</span>
@@ -642,11 +728,11 @@
 
                 <div class="accordion-item scroll-reveal" style="animation-delay: 0.2s">
                     <div class="accordion-header" onclick="toggleAccordion(this)">
-                        <span class="text-lg font-semibold text-gray-900">What happens if WiFi goes down?</span>
+                        <span class="text-lg font-semibold text-gray-900">What happens if the internet goes down?</span>
                         <span class="accordion-toggle">+</span>
                     </div>
                     <div class="accordion-content">
-                        <p>The button still sends the wireless signal to the hub. When WiFi returns, the hub automatically sends the pending SMS messages. This makes ProofButton more reliable than app-based systems that depend on constant connectivity.</p>
+                        <p>The button still sends the wireless signal to the hub. When your internet connection returns, the hub automatically sends the pending SMS messages. Since the hub uses a wired Ethernet connection, it's more reliable than WiFi-based systems that can drop signal.</p>
                     </div>
                 </div>
 
@@ -666,7 +752,7 @@
                         <span class="accordion-toggle">+</span>
                     </div>
                     <div class="accordion-content">
-                        <p>Plug in the hub. Scan the QR code with your phone camera. Add the phone numbers of people who should receive texts. Configure your message. That's it. 2 minutes total. No app download required for basic setup.</p>
+                        <p>Plug the hub into your router with the included Ethernet cable. Scan the QR code with your phone camera. Add the phone numbers of people who should receive texts. Configure your message. That's it. 2 minutes total. No app download required for basic setup.</p>
                     </div>
                 </div>
 

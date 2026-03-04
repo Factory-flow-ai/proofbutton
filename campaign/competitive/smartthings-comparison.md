@@ -4,7 +4,7 @@
 
 ProofButton and Samsung SmartThings Button represent two fundamentally different approaches to smart home automation. While SmartThings Button is a legacy solution tied to Samsung's ecosystem, ProofButton offers a modern, protocol-agnostic, battery-free alternative with superior long-term economics and flexibility. This document provides a detailed technical and commercial comparison to support sales and positioning.
 
-**Key Takeaway:** ProofButton's kinetic energy harvesting eliminates the battery replacement burden entirely, offers superior ecosystem flexibility, and delivers better total cost of ownership over 5 years—making it the future-proof choice for smart home and commercial automation.
+**Key Takeaway:** ProofButton combines kinetic energy (no batteries ever) with SMS text messaging (works on any phone, no app needed, no WiFi required). Samsung SmartThings needs batteries + app + hub + WiFi. ProofButton wins on simplicity, reliability, and cost.
 
 ---
 
@@ -13,22 +13,22 @@ ProofButton and Samsung SmartThings Button represent two fundamentally different
 | Feature | ProofButton | Samsung SmartThings Button |
 |---------|------------|---------------------------|
 | **Initial Price** | $49 (standard) / $29 (early bird) | $15–20 (button only) |
-| **Hub Cost** | $25 (standalone EnOcean hub) | $70–130 (SmartThings Hub required) |
-| **Total Setup Cost** | $74 (standard) / $54 (early bird) | $85–150 |
+| **Primary Notification** | **SMS Text Message** | App notification |
+| **App Required** | No | Yes (SmartThings app) |
+| **WiFi Required** | No (SMS works offline) | Yes (app requires WiFi) |
+| **Hub Cost** | Included (SMS gateway) | $70–130 (SmartThings Hub) |
+| **Total Setup Cost** | $49 standard / $29 early bird | $85–150 |
 | **Power Source** | Kinetic energy harvesting | CR2450 battery (2-year lifespan) |
 | **Battery Replacement Cost (5 years)** | $0 | ~$30–50 |
-| **5-Year TCO** | ~$74–54 | ~$115–200 |
+| **5-Year TCO** | ~$49 standard | ~$115–200 |
 | **Lifecycle** | 100,000+ presses (10+ years typical use) | ~2 years battery, then replacement needed |
-| **Protocol** | BLE + EnOcean | Zigbee |
-| **Range** | 150+ feet | ~130 feet |
-| **Ecosystem Compatibility** | Alexa, Google Home, Home Assistant, Zigbee Bridge | SmartThings only (locked ecosystem) |
+| **Works Anywhere** | Yes (SMS to any phone) | Only within SmartThings ecosystem |
+| **Ecosystem Compatibility** | Any phone (SMS), Alexa/Google/HA as stretch goal | SmartThings only (locked) |
 | **Custom Face** | Yes (printable/engravable) | No |
-| **Mounting** | Adhesive or screw | Adhesive or magnet |
-| **Weatherproof** | Yes (option available) | No |
-| **Size** | 3" diameter × 0.75" thick | 1.7" × 1.7" × 0.6" |
+| **Weatherproof** | Yes (IP54 option) | No |
 | **Operating Temperature** | -20°C to +55°C | 0°C to +40°C |
-| **Commercial Viability** | Excellent (battery-free, durable) | Limited (battery-dependent) |
-| **Support/Reputation** | Growing, responsive | Inconsistent (Samsung's uncertain SmartThings future) |
+| **Commercial Viability** | Excellent (battery-free, SMS-simple) | Limited (battery-dependent, ecosystem lock-in) |
+| **Support** | Growing, responsive | Samsung's SmartThings uncertain |
 
 ---
 

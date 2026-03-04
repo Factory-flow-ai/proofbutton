@@ -64,15 +64,15 @@ Complete project timeline from current date through customer fulfillment. This d
 **Milestones:**
 - Kickstarter page fully drafted
 - Campaign copy finalized and reviewed
-- Stretch goals defined
+- Stretch goals defined (SMS-first core, smart home integrations as stretch)
 - FAQ written (20+ questions)
 - Reward tier structure locked
 
 **Tasks:**
-- [ ] Write KS campaign pitch (compelling, story-driven, 2,000+ words)
-- [ ] Draft all reward tier copy (5-7 tiers with clear value prop)
-- [ ] Define stretch goals with funding thresholds ($50K to $500K)
-- [ ] Write comprehensive FAQ (20+ Q&A pairs)
+- [ ] Write KS campaign pitch (SMS-first angle, story-driven, 2,000+ words)
+- [ ] Draft all reward tier copy (5-7 tiers with clear SMS value prop)
+- [ ] Define stretch goals: Matter integration, Home Assistant, Apple HomeKit
+- [ ] Write comprehensive FAQ (20+ Q&A pairs about SMS setup, smart home)
 - [ ] Create FAQ page (Google Doc or website)
 - [ ] Design reward tier graphics
 - [ ] Write Risks & Challenges section (honest, realistic)

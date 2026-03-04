@@ -132,92 +132,93 @@
 
 ---
 
-### Prompt 9: Mother's Phone Notification - Medicine Confirmed
+### Prompt 9: Mother's Phone SMS - Medicine Confirmed
 
 **Sora Prompt:**
 
-"Close-up of a mother's smartphone screen showing a notification popup. The notification displays: 'Linkin took his medicine ✓' with a timestamp '8:45 AM' below it. The notification is clean, modern, and easy to read—think iOS style (or Android, whichever matches the brand). The background slightly blurs to a warm interior setting (maybe a kitchen or living room). The phone is held in a woman's hand (mother's hand, shown in frame). The notification appears with a subtle animation or glow, indicating it just arrived. The phone screen is bright and clear, the notification is prominent. The moment feels satisfying—proof that the system works. The hand holding the phone is relaxed and happy (you can see the relief on her expression out of focus in background). 4K, 25fps, well-lit phone screen, notification appears smoothly."
+"Close-up of a mother's smartphone screen showing an incoming SMS text message. The text message displays: 'Medicine taken ✓ 8:45 AM'. The message appears in the standard iOS or Android message interface (a text bubble on the home screen or lock screen is ideal). The notification is clean, modern, and easy to read. The background slightly blurs to a warm interior setting (maybe a kitchen). The phone is held in a woman's hand (mother's hand, shown in frame). The SMS notification appears with a subtle animation or sound indicator, showing it just arrived. The phone screen is bright and clear, the message is prominent and easy to read. The moment feels satisfying—real proof. The hand holding the phone is relaxed and happy. 4K, 25fps, well-lit phone screen, SMS appears smoothly on home/lock screen."
 
 **Key Visual Elements**:
-- Notification UI is clean and modern
-- Text is legible and clear: "Linkin took his medicine ✓"
+- SMS text message on lock screen or home screen (not in app)
+- Clear text: "Medicine taken ✓ 8:45 AM"
 - Timestamp shows immediate communication
-- Notification animation feels smooth and satisfying
+- Looks like a real SMS text message (not app notification)
 - Mother's hand visible (personal touch)
-- Background slightly warm and blurred
-- Checkmark icon (positive confirmation)
+- Background warm and blurred
+- Checkmark icon (proof/confirmation)
 
 ---
 
-### Prompt 10: Chickens Button Press and Confirmation
+### Prompt 10: Chickens Button Press and SMS Confirmation
 
 **Sora Prompt:**
 
-"Outdoor scene at bright afternoon. A teenage boy's hand is visible pressing a ProofButton labeled 'CHICKENS' with a cute chicken icon or design on the face. The button is mounted on or near the chicken coop area—maybe on a fence post or weathered wood surface. The button presses satisfyingly. Immediate cut to (or simultaneous display of) a father's phone showing a notification: 'Chickens fed ✓' with a timestamp '3:22 PM'. The father, visible in the background or a separate shot, nods with satisfaction, clearly believing the notification because he got proof. The outdoor scene is bright, warm afternoon light. The button interaction is clean and the notification is instant. Show both the button press and the notification confirmation in quick succession to establish the cause-and-effect relationship. 4K, 25fps, bright afternoon light, warm color grading."
+"Outdoor scene at bright afternoon. A teenage boy's hand is visible pressing a ProofButton labeled 'CHICKENS' on a fence post near the chicken coop. The button presses satisfyingly. Immediate cut to: a father's phone receiving an SMS text message: 'Chickens fed ✓ 3:22 PM'. The text appears on the lock screen or as an incoming SMS (standard phone notification). The father, visible in the background or a separate shot, looks at his phone, reads the text, and nods with satisfaction. The outdoor scene is bright, warm afternoon light. The button interaction is clean and the SMS text appears instantly after the button press. Show both the button press and the SMS text confirmation in quick succession to establish cause-and-effect. 4K, 25fps, bright afternoon light, warm color grading."
 
 **Key Visual Elements**:
-- Button labeled 'CHICKENS' with appropriate icon
-- Outdoor mounting (weathered, real location)
+- Button labeled 'CHICKENS' on fence post
+- Outdoor mounting (real location)
 - Satisfying button press (mechanical feel)
-- Immediate phone notification (proof of cause and effect)
-- Father's satisfied nod (credibility)
+- Immediate SMS text on phone (proof of cause and effect)
+- Father reads text and nods (credibility)
+- SMS looks like a real text message (not app)
 - Bright afternoon lighting
-- Timestamp on notification
+- Timestamp shows immediacy
 
 ---
 
-### Prompt 11: Bathroom Toilet Paper Button Press
+### Prompt 11: Bathroom Toilet Paper Button and SMS Response
 
 **Sora Prompt:**
 
-"Interior bathroom scene. A person's hand is visible pressing a ProofButton labeled 'TOILET PAPER' (could have a humorous icon or simple text). The button is mounted on the wall near the toilet paper holder or on a nearby wall surface. The bathroom lighting is still somewhat harsh (overhead lights) but slightly warmer now (color grading shift). The person is visible from behind or at an angle, clearly relieved. The button press is shown clearly and satisfyingly. The immediate result: cut to a wider household view showing an Alexa device (or smart speaker) lighting up and announcing in a clear, pleasant voice: 'Toilet paper needed in upstairs bathroom.' The notification is heard throughout the home, and in the background, you see a family member in another room immediately responding—getting up and heading toward the bathroom to help. The smart speaker's screen might show the message, or a light might pulse. The response is immediate and helpful. 4K, 25fps, bathroom to home transition, smart home aesthetics."
+"Interior bathroom scene. A person's hand is visible pressing a ProofButton labeled 'TOILET PAPER' on the wall near the toilet. The button press is shown clearly and satisfyingly. The immediate result: cut to another room—a family member receives an SMS text message: 'Toilet paper needed! 2:15 PM'. The person looks at their phone, reads the text, immediately gets up and grabs supplies from a closet, heading to the bathroom to help. The bathroom is realistically lit (overhead lights). The family member's phone shows the SMS text clearly (not an app, just a real text message). The response is immediate and helpful—the text message triggered action. Show the cause (button press) and effect (family member responding to text) in quick succession. 4K, 25fps, bathroom and home transition."
 
 **Key Visual Elements**:
-- Button labeled 'TOILET PAPER' (on bathroom wall)
-- Bathroom interior (realistic, not glamorized)
-- Person visible (relief/satisfaction on face)
-- Smart speaker activation (clear visual/audio feedback)
-- Alexa announcement (clear voice, helpful tone)
-- Family member responding immediately (proof of system working)
-- Light up or screen display on smart device
-- Slight warm shift in bathroom color grading
+- Button labeled 'TOILET PAPER' on bathroom wall
+- Bathroom interior (realistic)
+- Person visible (relief on face from pressing button)
+- SMS text message on family member's phone
+- SMS looks like a real text (not app notification)
+- Family member responds immediately to text
+- Getting supplies and heading to help
+- Clear cause-and-effect relationship
 
 ---
 
-### Prompt 12: Dinner Announcement - Button and Response
+### Prompt 12: Dinner Announcement - Button and SMS Response
 
 **Sora Prompt:**
 
-"Kitchen scene (warm, inviting lighting). A mother's hand presses a ProofButton labeled 'DINNER' on the kitchen counter near her. The button press is satisfying and clear. Immediate transition to: upstairs hallway (cooler lighting). A smart speaker or multiple devices throughout the home announce in a pleasant, clear voice: 'Come down for dinner!' The announcement is heard clearly. Within a second, kids' bedroom doors fly open, kids get up and head toward the stairs. The camera captures the quick response—kids putting down phones, closing laptops, getting off beds, moving toward the door. The energy shifts from isolated/disconnected to unified/connected. The announcement might be shown on a smart display. The transition from kitchen (button press) to upstairs (kids responding) should feel immediate and seamless, showing the magic of the system. 4K, 25fps, kitchen warm light, upstairs response shown with quick cuts, smart home UI visible."
+"Kitchen scene (warm, inviting lighting). A mother's hand presses a ProofButton labeled 'DINNER' on the kitchen counter. The button press is satisfying and clear. Immediate transition to: upstairs bedrooms—kids' phones buzz with incoming SMS text: 'Dinner is ready! 5:45 PM'. The text appears on their lock screens or as incoming notifications. Within a second, kids look at their phones, read the text, immediately put down phones/controllers, get off beds, and head toward the stairs. The camera captures the quick response—kids reading text, standing up, moving to door. The energy shifts from isolated/disconnected to unified/connected. The transition from kitchen (button press) to upstairs (kids getting SMS and responding) should feel immediate and seamless, showing the power of the text message. 4K, 25fps, kitchen warm light, upstairs response shown with quick cuts, SMS texts visible on phone screens."
 
 **Key Visual Elements**:
 - Button labeled 'DINNER' on kitchen counter
-- Mother pressing button (clear, satisfying press)
-- Immediate smart home announcement
+- Mother pressing button (satisfying press)
+- Immediate SMS text to kids' phones
 - Kitchen to upstairs transition (quick, seamless)
-- Kids responding within seconds (proof of urgency/effectiveness)
-- Multiple rooms shown (whole home connected)
+- Kids responding within seconds (text creates action)
+- SMS texts visible on multiple phones
 - Kids putting away devices and heading downstairs
-- Smart speaker screen or light display activation
+- Clear cause-and-effect (button → text → action)
 
 ---
 
-### Prompt 13: Goodnight Button Press and Light Dimming
+### Prompt 13: Goodnight Button and Parent Confirmation
 
 **Sora Prompt:**
 
-"Bedroom scene at night (dark room, minimal external light). A teenage boy is in bed, reaching toward a ProofButton labeled 'GOODNIGHT' mounted on the wall near his head or on the nightstand. The room is dimly lit with perhaps a bedside lamp on. The boy presses the button—satisfying mechanical click (or that sound will be added). Immediate response: the overhead lights (or smart bulbs) smoothly dim from bright to a warm, soft nightlight glow over 1-2 seconds. The transition is gradual and beautiful—not harsh or immediate. The boy's face becomes softly illuminated by the warm glow, and he smiles with satisfaction and contentment. His eyes close gently, ready for sleep. The room transforms from 'bright and awake' to 'cozy and restful' instantly. The camera pulls back slightly to show the whole room's transformation. The lighting shift is the hero of the shot—show how good it feels to have control. 4K, 25fps, gradual lighting transition (show the 1-2 second dimming), warm nightlight color temperature, boy's satisfied smile."
+"Bedroom scene at night (dark room, minimal external light). A teenage boy is in bed, reaching toward a ProofButton labeled 'GOODNIGHT' on the nightstand. The boy presses the button—satisfying mechanical click. Immediate transition to: parents' bedroom (different room, different time). Their phone buzzes with an SMS text: 'Goodnight ✓ 9:45 PM'. The parents read the text, smile with satisfaction (their kid actually did bedtime), and relax knowing the routine is confirmed. Back to boy's room: the boy looks satisfied after pressing the button, closes his eyes gently, ready for sleep. The room is peaceful and restful. The camera shows both moments—button press in boy's room, SMS confirmation in parents' room—establishing that the button connects the family. 4K, 25fps, bedroom dark ambient light, SMS text visible on parents' phone, two rooms connected by one press."
 
 **Key Visual Elements**:
-- Button labeled 'GOODNIGHT' on nightstand/wall
-- Satisfying button press
-- Immediate smart light response
-- Smooth, gradual dimming (not jarring)
-- Warm color temperature for nightlight (orange/amber glow)
-- Boy's face lit softly by new light (shows the comfort)
-- Boy's smile and contentment (emotional payoff)
-- Wide shot showing whole-room transformation
+- Button labeled 'GOODNIGHT' on nightstand
+- Satisfying button press (mechanical feel)
+- Immediate SMS text to parents' phone
+- SMS text shows bedtime confirmation
+- Parents smile with satisfaction (proof kid did routine)
+- Boy's face shows contentment (routine complete)
+- Two rooms connected by one button press
 - Peaceful, restful aesthetic
+- Family connection through simple text
 
 ---
 

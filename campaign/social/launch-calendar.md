@@ -15,23 +15,23 @@ Comprehensive 8-week social media strategy: 4 weeks pre-launch + 4 weeks campaig
 #### Instagram (4 posts)
 
 **Post 1: Founder Intro (Monday, 9 AM)**
-- Image: Jared holding a regular button, smiling
-- Caption: "Hi, I'm Jared. I built ProofButton because I was tired of forgetting to do... well, everything. A wireless button that powers itself and reminds you to finish what you started. Launching on Kickstarter soon. 🚀 #ProofButton #Accountability"
+- Image: Jared holding ProofButton button
+- Caption: "Hi, I'm Jared. I built ProofButton because my son needed proof he took his medicine. Not an app notification. A text message. Press the button. Get a text. Launching on Kickstarter soon. 🚀 #ProofButton #AccountabilityMatters"
 - CTA: "Link in bio to be notified at launch"
 
 **Post 2: The Problem (Wednesday, 6 PM)**
-- Image: Chaotic desk with multiple reminders, sticky notes, notifications
-- Caption: "Sound familiar? Endless notifications, sticky notes everywhere, smart home that doesn't actually help you remember. What if your reminder was as simple as pressing a button? #SmartHome #Accountability #Productivity"
-- Hashtags: #SmartHomeAutomation #HomeAssistant #Productivity
+- Image: Kid asking "Did you take your medicine?" Parent unsure
+- Caption: "Sound familiar? 'Did you do it?' 'Yes.' But did they, really? What if the proof was as simple as a text message arriving on your phone? #Accountability #TextMeWhen #NoApp"
+- Hashtags: #ParentingWin #TextNotification #SimplerLife
 
 **Post 3: Sneak Peek (Friday, 9 AM)**
-- Video: 15-second close-up of ProofButton kinetic mechanism (slow-mo, satisfying)
-- Caption: "This. Is. Satisfying. 🔘 No batteries. Ever. Just pure kinetic energy. Link in bio to be first to know when ProofButton launches."
-- Hashtags: #ProofButton #NoMoreBatteries #SmartHome
+- Video: 15-second button press, text appears on phone screen
+- Caption: "Press button. Text arrives. That's it. 🔘 No app. No WiFi required. Link in bio to be first to know when ProofButton launches."
+- Hashtags: #ProofButton #TextMessage #AccountabilityButton
 
 **Post 4: Community Question (Sunday, 6 PM)**
-- Image: Simple question graphic ("What's your biggest blocker to finishing tasks?")
-- Caption: "Drop your answer in the comments. We're building this for YOU. #ProofButton #ProductDesign"
+- Image: Simple question graphic ("What would you use a text-message button for?")
+- Caption: "Drop your answer in the comments. Medicine? Chores? Tasks? We're building this for YOU. #ProofButton #Accountability"
 - Engagement Goal: 50+ comments
 
 #### TikTok (3 videos)
@@ -91,35 +91,35 @@ link in bio. early notified list opening soon. #Accountability #SmartHome"
 
 ---
 
-### Week 2: "How It Works & Smart Home Integration"
+### Week 2: "How It Works & Why Texts Matter"
 
-**Theme:** Educate about kinetic technology and smart home compatibility
+**Theme:** Educate about kinetic technology and SMS-first benefits
 
 #### Instagram (4 posts)
 
-**Post 1: How Kinetic Works (Monday, 9 AM)**
-- Image: Infographic showing kinetic energy conversion (simple, visual)
-- Caption: "This is black magic but actually physics. 🔋→0 Every press of ProofButton generates its own power. No batteries. No charging. Ever. Coming to Kickstarter in X weeks. #SmartHome #NoMoreBatteries #ProofButton"
-- Hashtags: #KineticEnergy #SmartHome #Innovation
+**Post 1: Button Press → Text (Monday, 9 AM)**
+- Image: Infographic showing button press to text message arrival
+- Caption: "No batteries. No app. No WiFi required. Press the button. Text arrives in seconds. That's accountability. 🔘 Coming to Kickstarter in X weeks. #TextNotification #ProofButton #SimplerLife"
+- Hashtags: #Accountability #NoApp #SimplerLiving
 
-**Post 2: Use Cases (Wednesday, 6 PM)**
-- Carousel post (5 slides): Different use cases
-  1. Workout complete
-  2. Homework done
-  3. Meeting finished
-  4. Chore checked off
-  5. Meditation session complete
-- Caption: "One button. Infinite accountability. What's YOUR use case? #ProofButton"
-- Hashtags: #Productivity #SmartHome #Accountability
+**Post 2: Real Use Cases (Wednesday, 6 PM)**
+- Carousel post (5 slides): SMS use cases
+  1. Medicine taken → text proof
+  2. Chores done → text confirmation
+  3. Homework finished → text arrives
+  4. Kid safe at home → text notification
+  5. Help needed → text alert
+- Caption: "SMS works on every phone. Your grandma gets a text. You get a text. Done. #ProofButton"
+- Hashtags: #TextMessage #Accountability #FamilyFirst
 
-**Post 3: Smart Home Compatibility (Friday, 9 AM)**
-- Image: Logos of compatible systems (Alexa, Google Home, Home Assistant, Matter)
-- Caption: "Works with all your favorite smart home systems. Alexa, Google Home, Home Assistant, more coming. No proprietary nonsense. #SmartHome #ProofButton #HomeAutomation"
-- Hashtags: #Alexa #GoogleHome #HomeAssistant #SmartHome
+**Post 3: Why SMS Beats Apps (Friday, 9 AM)**
+- Image: Phone with SMS notification vs app notification
+- Caption: "Texts work when WiFi is down. Texts work on old phones. Texts reach anyone. No download. No setup. Just accountability. #SMS #ProofButton #TextFirst"
+- Hashtags: #SimpleLife #NoAppNeeded #TextNotification
 
 **Post 4: Behind the Scenes (Sunday, 4 PM)**
-- Video: 15-second lab/workshop footage
-- Caption: "This is what obsession looks like. Building the most reliable button on the planet. 🔘 #ProofButton #StartupLife"
+- Video: 15-second SMS notification arriving on phone screen
+- Caption: "This is what we've been building. A text message that means something. 🔘 #ProofButton #StartupLife"
 
 #### TikTok (3 videos)
 

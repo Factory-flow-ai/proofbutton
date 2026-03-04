@@ -28,7 +28,7 @@ Here's the thing: **this deal only exists for the first 100 people.**
 
 For $29, you get:
 - One ProofButton (the wireless, battery-free button)
-- One ProofButton Hub (connects to your Alexa/Google Home/Home Assistant)
+- SMS setup guide (connect to your phone number in minutes via QR code)
 - Custom face labels
 - Free shipping
 - Complete setup instructions
@@ -83,23 +83,23 @@ We've been collecting FAQs from the community. Here are the ones we're seeing mo
 **Q: How long does the battery last?**
 A: There is no battery. The button powers itself through kinetic energy harvesting. Every time you press it, you're generating the power needed for that press. One press = one notification. It's good for millions of presses.
 
-**Q: Does the hub need power?**
-A: Yes, the hub plugs into a standard outlet. It's the brains of the operation — it connects your ProofButtons to your smart home (Alexa, Google Home, Home Assistant).
+**Q: How do I set it up?**
+A: Scan the QR code on the hub or box with your phone. Enter your phone number in the web portal. Done. 2 minutes. You get texts on whatever phone number you want.
 
 **Q: Can I customize the button faces?**
 A: Yes. We provide blank labels and clear instructions. You can print your own custom faces or use templates we provide. "Medicine," "Chores," "Dinner," whatever you want.
 
 **Q: What happens if I'm not home?**
-A: You still get notifications. The button sends a wireless signal to the hub. The hub sends notifications to your phone. It doesn't matter if you're downstairs or across the country. You get the alert.
+A: You still get texts. The button sends a wireless signal. The gateway sends you an SMS. It doesn't matter if you're downstairs or across the country. You get the text.
 
 **Q: What if I have multiple buttons?**
-A: You get a notification for each press. You can group them by room, by person, by task. You can set up automations: "When the Dinner button is pressed, turn on the dining room lights."
+A: You get a text for each press. You can label them however you want. Custom text message content for each button type.
 
-**Q: How fast is the notification?**
-A: Usually within 1-3 seconds of pressing the button. Basically instant from a human perspective.
+**Q: How fast is the text?**
+A: Usually within 2-5 seconds of pressing the button. Fast enough to feel real.
 
-**Q: Can I integrate with other smart home systems?**
-A: We're launching with Alexa, Google Home, and Home Assistant support. More integrations coming post-launch based on demand.
+**Q: Can I set up rules or automations?**
+A: Through the web portal. Button press → custom text sent to custom phone numbers. No app needed. Works with any phone.
 
 ---
 

@@ -1,46 +1,47 @@
 # ProofButton Stretch Goals
 
-Comprehensive stretch goal roadmap with funding thresholds, feature descriptions, and implementation timelines. These are staggered to create momentum throughout the campaign.
+Comprehensive stretch goal roadmap with funding thresholds, feature descriptions, and implementation timelines. SMS text messaging is the core. These stretch goals enhance the experience for smart home enthusiasts.
 
 ---
 
 ## Stretch Goal Philosophy
 
-**Key principle:** Every stretch goal should be a genuine feature that enhances ProofButton's value, not a gimmick.
+**Key principle:** SMS text messaging is the foundation. Stretch goals add optional smart home integration and ecosystem features—not required, but delightful if funded.
 
 **Strategy:**
-1. Goals are ambitious but achievable
-2. Each adds real functionality (not cosmetic)
+1. Core SMS works without any stretch goals
+2. Each stretch goal adds optional smart home integration
 3. Timeline is conservative (under-promise, over-deliver)
 4. All backers benefit equally (no tier exclusivity)
 5. Goals build on each other (creates narrative arc)
 
 ---
 
-## Stretch Goal 1: Native Google Home Integration
+## Stretch Goal 1: Matter Protocol (Smart Home)
 
 **Funding Threshold:** $50K (first 1,000-1,200 backers)
 **Status:** Likely to hit within first week
 **Announcement:** Launch week (Day 3-5)
 
 ### Feature Description:
-- Native Google Home integration (no IFTTT workaround needed)
-- Voice control: "Hey Google, ProofButton" routines
-- Google Routines triggered by button press (full automation)
-- Google Home Hub display integration (show button status, milestones)
-- Fully local automation support via Google Home local fulfillment
+- Full Matter protocol certification (industry standard)
+- Connect to HomeKit, Google Home, or any Matter ecosystem
+- Button press → trigger scenes, automations, smart home devices
+- Local control option (privacy-first)
+- Fully backward compatible with SMS core
 
 ### Technical Details:
-- Works with all Google Home devices (speakers, displays, hub)
-- Supports custom routines (unlimited automation possibilities)
-- Local-first (doesn't require cloud if using local Google Home)
-- Integration available at campaign fulfillment (included in all units shipped)
+- Matter certification from CSA (Connectivity Standards Alliance)
+- Works with HomeKit, Google Home, Home Assistant (Matter-enabled)
+- Local control via local Matter fabric
+- SMS still works independently (texts don't require Matter)
+- Integration available at fulfillment (included in all units shipped)
 
 ### Why This Goal:
-- Google Home is #1 smart home platform (30% market share)
-- Backers using Google Home want seamless integration
-- Builds credibility with smart home community
-- Achieves faster than expected = momentum boost
+- Matter is the future of smart home (industry standard)
+- Positions ProofButton as future-proof
+- Enables HomeKit users to fully integrate (currently impossible)
+- SMS still works perfectly for everyone—this is optional magic
 
 ### Timeline to Delivery:
 - **April (Month 0):** API integration begins
@@ -53,31 +54,32 @@ Jared + Engineering team (contract if needed)
 
 ---
 
-## Stretch Goal 2: Apple HomeKit + Matter Protocol Support
+## Stretch Goal 2: Kinetic Window/Door Sensor (Security)
 
 **Funding Threshold:** $75K (1,500-1,800 backers)
 **Status:** Likely to hit by end of Week 2
 **Announcement:** Week 2 (Days 8-12)
 
 ### Feature Description:
-- Full Apple HomeKit integration (Siri voice control)
-- Matter protocol implementation (future-proofing)
-- HomeKit Secure Router compatibility
-- iCloud+ sync (HomeKit requires iCloud subscription, but works seamlessly)
-- Thread support (faster, more reliable mesh networking)
+- Wireless door/window sensor companion to ProofButton
+- Detects opening and closing
+- Sends SMS alert when door opens (e.g., "Front door opened at 3:15 PM")
+- Optional smart home automation (if you have Matter or other integrations)
+- Same kinetic reliability as button (no batteries, 5+ year lifespan)
 
 ### Technical Details:
-- Works with all HomeKit devices (HomePods, Apple TV, iPad)
-- Matter certification (industry standard protocol)
-- Local automation via HomeKit (Siri scenes, automations)
-- Supports HomeKit automation (time-based, sensor-based, manual)
-- Future-proof: As Matter becomes standard, ProofButton works everywhere
+- Zigbee wireless connection (same hub as ProofButton)
+- Door/window contact sensor (reliable, proven tech)
+- Sends SMS alerts to your phone(s)
+- Works with Matter integrations (if available)
+- Low-power consumption (no batteries, uses tiny magnetic reed switch)
 
 ### Why This Goal:
-- Apple ecosystem is premium market (higher-income backers)
-- HomeKit users are often power users (will appreciate native integration)
-- Matter is the future of smart home (positioning ProofButton as forward-thinking)
-- Differentiates from competitors (Flic has no HomeKit)
+- Opens new product category (security/monitoring)
+- Complements ProofButton accountability use case
+- SMS alerts are valuable for security scenarios
+- Different tech than the button (sensor vs. kinetic press)
+- Enables new use cases: door locks, window monitoring, etc.
 
 ### Timeline to Delivery:
 - **April-May (Months 0-1):** Matter certification process begins
@@ -90,87 +92,138 @@ Contracted iOS/Matter engineer + Jared oversight
 
 ---
 
-## Stretch Goal 3: Home Assistant Plug-and-Play Setup
+## Stretch Goal 3: ProofButton App (Deeper Integration)
 
 **Funding Threshold:** $100K (2,000-2,400 backers)
 **Status:** Likely to hit by end of Week 3
 **Announcement:** Week 3 (Days 15-21)
 
 ### Feature Description:
-- Automatic device discovery in Home Assistant (no manual pairing needed)
-- Pre-configured automation templates (instant productivity)
-- One-click dashboard integration (button shows in Home Assistant automatically)
-- Integration with popular HA automations (instantly logs to databases, sends notifications, etc.)
-- Community template library (backers can share automations)
+- Native iOS and Android app
+- View button press history and analytics
+- Set reminders and deadlines (optional)
+- Richer push notifications (in addition to SMS)
+- Advanced scheduling (different phone numbers by time/day)
+- Button press reporting and insights
 
 ### Technical Details:
-- Zigbee automatic discovery (Home Assistant sees button immediately)
-- Custom integration package (home-assistant/addons format)
-- Pre-built automation cards (copy-paste into automations.yaml)
-- Integration with HASS.agent, automations, scripts, templates
-- Support for Node-RED flows (visual automation builder)
+- iOS and Android native apps
+- Real-time button press notifications via app
+- Optional advanced scheduling features
+- Works alongside SMS (not required, just optional enhancement)
+- Web portal continues to work for everyone
 
 ### Why This Goal:
-- Home Assistant community is passionate and vocal
-- "Plug and play" HA integration is rare (usually requires YAML expertise)
-- Backers from r/homeassistant were early fans
-- Differentiates from all competitors (none have HA plug-and-play)
+- Native app is nice-to-have, not critical (SMS works without it)
+- Enables advanced power users to build complex workflows
+- Optional—everyone still gets SMS without the app
+- Differentiates from simple button competitors
 
 ### Timeline to Delivery:
-- **April-May (Months 0-1):** HA integration developer contracted
-- **May-June (Months 1-2):** Integration development & testing
-- **July (Month 3):** Community testing and feedback
-- **August (Month 4):** Final refinement and Home Assistant team review
-- **Fulfillment:** Available as firmware update at shipment + documentation
+- **April-May (Months 0-1):** App design and backend setup
+- **May-July (Months 1-3):** iOS and Android development
+- **August (Month 4):** Beta testing with community
+- **September-October (Months 5-6):** App store submission and approval
+- **Fulfillment:** App available day one, all backers get access
 
 ### Implementation Owner:
-Home Assistant community integration developer + Jared
+Contracted mobile app developer + Jared
 
 ---
 
-## Stretch Goal 4: IFTTT Automation Templates
+## Stretch Goal 4: Rules & Escalation (Accountability Deadlines)
 
 **Funding Threshold:** $125K (2,500-3,000 backers)
 **Status:** Likely to hit by end of Week 3
 **Announcement:** Week 3 (Days 20-24)
 
 ### Feature Description:
-- Official IFTTT applets pre-configured for ProofButton
-- 20+ automation templates (fitness, productivity, habit tracking, smart home)
-- One-click recipe activation (no setup needed)
-- Integration with popular services (Google Sheets, Slack, Discord, Gmail, etc.)
-- Community recipe marketplace (backers create and share recipes)
+- Set automatic deadlines for button presses (e.g., "Medicine must be pressed by 7:30 AM on school days, 9:00 AM on weekends")
+- Escalation alerts: If NOT pressed by deadline, automatically text escalation recipients
+- Example workflow: If Linkin doesn't press MEDICINE by 7:30 AM → automatic text to Mom AND Dad: "Linkin DID NOT take his medicine"
+- Confirmation texts when pressed ON TIME: "Linkin took his medicine at 7:32 AM ✓"
+- Multiple escalation levels: 1st reminder (friendly), 2nd reminder (urgent), 3rd to extended family
+- School calendar integration: Different deadline rules for school days vs. weekends vs. holidays
+- Daily automatic reset at midnight (ready for next day)
+
+### Use Case Example:
+Linkin has type 1 diabetes. Every school day, he needs to take his insulin by 7:30 AM. On weekends, his deadline is 9:00 AM.
+
+**Scenario A (On time):** Linkin presses MEDICINE button at 7:32 AM. His mom's phone immediately buzzes: "Linkin took his medicine at 7:32 AM ✓"
+
+**Scenario B (Late):** Linkin presses MEDICINE button at 8:45 AM (after deadline). His mom's phone buzzes: "Linkin took his medicine at 8:45 AM ⚠️ (15 minutes late)"
+
+**Scenario C (Not pressed):** 7:35 AM, MEDICINE button not yet pressed. Automatic escalation text goes to Mom AND Dad: "Linkin DID NOT take his medicine (5 minutes past deadline). Check in now."
+
+Then at 8:00 AM (still not pressed): Second escalation text to Mom, Dad, AND Grandma: "URGENT: Linkin still hasn't taken his medicine. It's been 30 minutes."
 
 ### Technical Details:
-- Official IFTTT certification
-- Pre-built applets for common use cases:
-  - Log workout to Google Sheets
-  - Send Slack message to team
-  - Post Discord message to accountability server
-  - Email daily summary
-  - Create calendar event
-  - etc.
-- API access for advanced users (create custom IFTTT integrations)
+- Backend deadline scheduling engine
+- Timezone-aware (accounts for travel)
+- Calendar integration (Google Calendar, Outlook calendar lookup for school holidays)
+- Escalation logic: configurable recipients at each level
+- SMS delivery of escalation alerts
+- All backers get SMS escalation alerts (optional)
+- Native app shows escalation status and history
 
 ### Why This Goal:
-- IFTTT reaches 200+ services (massive integration potential)
-- Non-technical users can set up complex automations
-- Appeals to casual users (not just power users)
-- Competitors don't have official IFTTT templates
+- Solves real accountability problem: behavioral confirmation without nagging
+- Takes accountability from passive (logs) to active (deadline enforcement)
+- Enables behavior change (deadlines create structure)
+- Natural extension of the core SMS functionality
+- Appeals to parents, caregivers, guardians managing daily tasks
+- Psychological: Escalation is stronger than reminders (creates urgency)
 
 ### Timeline to Delivery:
-- **April-May (Months 0-1):** IFTTT API integration and certification
-- **May-June (Months 1-2):** Template creation and testing
-- **July (Month 3):** IFTTT approval process
-- **August (Month 4):** Launch and community recipe submissions
-- **Fulfillment:** Available at fulfillment + ongoing template additions
+- **April-May (Months 0-1):** Backend deadline engine development
+- **May-June (Months 1-2):** Calendar integration, escalation logic
+- **June-July (Months 2-3):** Testing with real families
+- **August (Month 4):** Final implementation and app update
+- **Fulfillment:** Available post-launch via firmware update or app update (all backers get access)
 
 ### Implementation Owner:
-IFTTT integration engineer + Jared
+Backend engineer + product manager + Jared
 
 ---
 
-## Stretch Goal 5: Embedded Flush-Mount Installation Option
+## Stretch Goal 5: Google Home Native Integration
+
+**Funding Threshold:** $125K (2,500-3,000 backers)
+**Status:** Likely to hit by end of Week 3
+**Announcement:** Week 3 (Days 20-24)
+
+### Feature Description:
+- Native Google Home integration (no workarounds needed)
+- Button press triggers Google routines
+- Voice announcements from Google Home devices
+- Full automation support (time-based, routine-based, etc.)
+- Same simplicity as Alexa integration
+
+### Technical Details:
+- Native Google Home API integration (official, approved)
+- Works with all Google Home devices (speakers, displays, hubs)
+- Custom routines (unlimited automation possibilities)
+- Local control option (privacy-first)
+- Integration available at fulfillment
+
+### Why This Goal:
+- Google Home users deserve native integration (currently missing)
+- 30% of smart home market uses Google Home
+- Builds community credibility with all ecosystems
+- SMS still works independently—this is optional enhancement
+
+### Timeline to Delivery:
+- **April-May (Months 0-1):** Google Home API integration begins
+- **May-July (Months 1-3):** Testing and certification with Google
+- **August (Month 4):** Final implementation
+- **Fulfillment:** Available at shipment (included in all units)
+
+### Implementation Owner:
+Google API specialist + Jared
+
+---
+
+## Stretch Goal 6: Embedded Flush-Mount Installation Option
 
 **Funding Threshold:** $150K (3,000-3,600 backers)
 **Status:** Moderate difficulty, requires manufacturing change
@@ -208,7 +261,7 @@ Industrial designer + manufacturer (Ebelong)
 
 ---
 
-## Stretch Goal 6: Door/Window Sensor Integration
+## Stretch Goal 7: Door/Window Sensor Integration
 
 **Funding Threshold:** $200K (4,000-4,800 backers)
 **Status:** New product category, moderate complexity
@@ -246,7 +299,7 @@ Product manager + hardware partner
 
 ---
 
-## Stretch Goal 7: Kinetic Decora Wall Switch
+## Stretch Goal 8: Kinetic Decora Wall Switch
 
 **Funding Threshold:** $250K (5,000-6,000 backers)
 **Status:** Complex, high risk, high reward
@@ -290,7 +343,7 @@ This is ambitious. If this goal is hit, you're committing to designing and manuf
 
 ---
 
-## Stretch Goal 8: Kinetic Detachable Remote
+## Stretch Goal 9: Kinetic Detachable Remote
 
 **Funding Threshold:** $300K (6,000-7,200 backers)
 **Status:** Moderate complexity, lower risk than wall switch
@@ -330,7 +383,7 @@ Product engineer + manufacturer
 
 ---
 
-## Stretch Goal 9: Custom Color Options
+## Stretch Goal 10: Custom Color Options
 
 **Funding Threshold:** $400K (8,000-9,600 backers)
 **Status:** Low complexity, manufacturing-only change
@@ -364,7 +417,7 @@ Manufacturer (Ebelong) - simple factory change
 
 ---
 
-## Stretch Goal 10: ProofButton Designer App
+## Stretch Goal 11: ProofButton Designer App
 
 **Funding Threshold:** $500K (10,000-12,000 backers)
 **Status:** Complex software project, long timeline
@@ -408,16 +461,16 @@ This is very ambitious. Only include if you can contract development immediately
 
 | Goal | Threshold | Difficulty | Timeline | Differentiator |
 |------|-----------|-----------|----------|-----------------|
-| Google Home | $50K | Easy | 4-5 months | Native integration |
-| HomeKit + Matter | $75K | Medium | 4-5 months | Future-proof, Apple ecosystem |
-| HA Plug-and-Play | $100K | Medium | 4-5 months | HA community favorite |
-| IFTTT Templates | $125K | Easy | 4-5 months | 200+ service integrations |
+| Matter Protocol | $50K | Medium | 5-6 months | Future-proof smart home |
+| Window/Door Sensor | $75K | Medium | 6-7 months | Security ecosystem |
+| ProofButton App | $100K | Medium | 6-7 months | Advanced scheduling |
+| Rules & Escalation | $125K | Medium | 5-6 months | Deadline enforcement, behavior change |
+| Google Home | $125K | Easy | 4-5 months | Native Google integration |
 | Flush-Mount | $150K | Hard | 6-7 months | Premium installation option |
-| Door/Window Sensors | $200K | Medium | 6-7 months | Ecosystem expansion |
-| Wall Switch | $250K | Very Hard | 8-9 months | New product category |
-| Detachable Remote | $300K | Medium | 6-7 months | Multi-location use |
-| Custom Colors | $400K | Easy | 3-4 months | Design personalization |
-| Designer App | $500K | Very Hard | 6-8 months | Community + marketplace |
+| Kinetic Wall Switch | $200K | Very Hard | 8-9 months | New product category |
+| Detachable Remote | $250K | Medium | 6-7 months | Multi-location use |
+| Custom Colors | $300K | Easy | 3-4 months | Design personalization |
+| Designer App | $400K | Very Hard | 6-8 months | Community + marketplace |
 
 ---
 

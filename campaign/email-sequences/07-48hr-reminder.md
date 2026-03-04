@@ -50,7 +50,7 @@ We've been reading the comments. Here's what we're seeing:
 
 *"My kids fight over the goodnight button. Best $29 I've ever spent."*
 
-These aren't paid testimonials. These aren't plants. These are real families who recognize the problem and see the solution.
+These aren't paid testimonials. These aren't plants. These are real families who recognize the problem (accountability) and see the solution (a text message).
 
 ---
 

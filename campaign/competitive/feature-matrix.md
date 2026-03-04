@@ -9,6 +9,7 @@ Detailed comparison of ProofButton vs. major competitor buttons in the smart hom
 | Feature | ProofButton | Flic Button | SmartThings Button | IKEA Shortcut Button | Amazon Dash (Discontinued) |
 |---------|-----------|-------------|-------------------|---------------------|------------------------|
 | **Price** | $49 (early bird) / $59 (regular) | $19-29 | $10 | $17 | N/A (Discontinued) |
+| **Primary Notification** | **SMS Text Message** | App notification | App notification | App notification | Shopping (app) |
 | **Battery Required** | No (kinetic energy) | Yes (CR2032) | Yes (CR2032) | Yes (AAA) | Yes (AAA) |
 | **Battery Lifespan** | N/A (infinite) | 1-2 years | 2-3 years | 2-3 years | 1-2 years |
 | **Battery Replacement Frequency** | Never | Annual | Annual/Biennial | Annual/Biennial | Annual |
@@ -16,15 +17,18 @@ Detailed comparison of ProofButton vs. major competitor buttons in the smart hom
 
 ---
 
-## Connectivity & Hub Requirements
+## SMS Messaging & Hub Requirements
 
 | Feature | ProofButton | Flic Button | SmartThings Button | IKEA Shortcut Button | Amazon Dash |
 |---------|-----------|-------------|-------------------|---------------------|------------|
-| **Hub Required** | Yes (optional but recommended) | No hub needed | Yes (SmartThings Hub) | No hub needed | No hub needed |
-| **Hub Cost** | ~$30-50 (optional) | N/A | Included or $30+ | N/A | N/A |
-| **Wireless Protocol** | Zigbee/WiFi (via hub) | Bluetooth LE | Zigbee | Bluetooth LE | WiFi (proprietary) |
-| **Direct WiFi Support** | Yes (future version) | No | No | No | Yes |
-| **Range (without hub)** | 30-50 feet (with hub) | 100 feet (BLE) | 100+ feet (Zigbee) | 100 feet (BLE) | Unlimited (cloud) |
+| **SMS Text Messaging** | **Yes (primary feature)** | No | No | No | No |
+| **App Required** | No (SMS works on any phone) | Yes | Yes | No (optional) | Yes |
+| **Hub Required** | No (SMS gateway included) | No | Yes (SmartThings Hub) | No | No |
+| **Hub Cost** | Included in box | N/A | $30+ | N/A | N/A |
+| **Wireless Protocol** | 902 MHz (EnOcean) | Bluetooth LE | Zigbee | Bluetooth LE | WiFi (proprietary) |
+| **WiFi Required** | No (SMS works offline) | Yes | Yes | Yes | Yes |
+| **Range** | Unlimited (SMS anywhere) | 100 feet (BLE) | 100+ feet (Zigbee) | 100 feet (BLE) | Unlimited (cloud) |
+| **Signal Reliability** | **Uncrowded 902 MHz band** | Crowded 2.4 GHz | Proven commercial protocol | Crowded 2.4 GHz | Cloud-dependent |
 
 ---
 
