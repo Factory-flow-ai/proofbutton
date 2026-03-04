@@ -144,19 +144,19 @@
 <body class="bg-white text-gray-900">
 
     <!-- Navigation Bar -->
-    <nav class="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-sm shadow-sm z-50">
+    <nav class="fixed top-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-sm shadow-sm z-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="text-2xl font-bold gradient-text">ProofButton</div>
             <div class="hidden md:flex space-x-8">
-                <a href="#howitworks" class="text-gray-700 hover:text-orange-600 transition">How It Works</a>
-                <a href="#usecases" class="text-gray-700 hover:text-orange-600 transition">Use Cases</a>
-                <a href="#pricing" class="text-gray-700 hover:text-orange-600 transition">Pricing</a>
-                <a href="#faq" class="text-gray-700 hover:text-orange-600 transition">FAQ</a>
+                <a href="#howitworks" class="text-gray-300 hover:text-orange-500 transition">How It Works</a>
+                <a href="#usecases" class="text-gray-300 hover:text-orange-500 transition">Use Cases</a>
+                <a href="#pricing" class="text-gray-300 hover:text-orange-500 transition">Pricing</a>
+                <a href="#faq" class="text-gray-300 hover:text-orange-500 transition">FAQ</a>
             </div>
-            <button class="md:hidden text-gray-700" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">&#9776;</button>
+            <button class="md:hidden text-gray-300" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">&#9776;</button>
         </div>
         <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
-            <a href="#howitworks" class="block text-gray-700 hover:text-orange-600 transition py-1">How It Works</a>
+            <a href="#howitworks" class="block text-gray-300 hover:text-orange-500 transition py-1">How It Works</a>
             <a href="#usecases" class="block text-gray-700 hover:text-orange-600 transition py-1">Use Cases</a>
             <a href="#pricing" class="block text-gray-700 hover:text-orange-600 transition py-1">Pricing</a>
             <a href="#faq" class="block text-gray-700 hover:text-orange-600 transition py-1">FAQ</a>
@@ -164,27 +164,27 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-white to-orange-50">
+    <section id="hero" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, #121218 0%, #1a1a24 50%, #1e1e2a 100%);">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="scroll-reveal">
                     <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
                         <span class="gradient-text">Press it once.</span><br>
-                        <span class="text-gray-900">Get a text.</span><br>
-                        <span class="text-gray-900">That's it.</span>
+                        <span class="text-white">Get a text.</span><br>
+                        <span class="text-white">That's it.</span>
                     </h1>
 
-                    <p class="text-xl text-gray-600 mb-6 leading-relaxed">
+                    <p class="text-xl text-gray-400 mb-6 leading-relaxed">
                         ProofButton is a self-powered accountability button. Peel it, stick it anywhere, and when someone presses it, you get a text. No batteries. No wiring. No app required. Just proof that something got done.
                     </p>
 
-                    <p class="text-lg font-semibold text-gray-800 mb-8">No Batteries. No Excuses.</p>
+                    <p class="text-lg font-semibold text-gray-300 mb-8">No Batteries. No Excuses.</p>
 
                     <!-- Email Form -->
                     <form id="hero-form" class="space-y-4 mb-6" action="#" method="POST">
                         <div class="grid sm:grid-cols-2 gap-3">
-                            <input type="text" name="name" placeholder="Your name" class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 w-full" required>
-                            <input type="email" name="email" placeholder="your@email.com" class="input-focus px-4 py-3 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 w-full" required>
+                            <input type="text" name="name" placeholder="Your name" class="input-focus px-4 py-3 border border-gray-600 bg-gray-800 rounded-lg text-white placeholder-gray-500 w-full" required>
+                            <input type="email" name="email" placeholder="your@email.com" class="input-focus px-4 py-3 border border-gray-600 bg-gray-800 rounded-lg text-white placeholder-gray-500 w-full" required>
                         </div>
                         <button type="submit" class="btn-primary text-white font-bold py-3 px-8 rounded-lg w-full sm:w-auto text-lg">
                             Get Early Access
@@ -198,9 +198,8 @@
 
                 <!-- Right: Product Visual -->
                 <div class="flex justify-center items-center scroll-reveal" style="animation-delay: 0.2s">
-                    <div class="button-3d animate-float">
-                        <div class="button-ring"></div>
-                        <div class="button-disc">&#x2713;</div>
+                    <div class="animate-float">
+                        <img src="images/hero-product.png" alt="ProofButton - self-powered accountability button" class="w-80 md:w-96 drop-shadow-2xl" loading="eager">
                     </div>
                 </div>
             </div>
